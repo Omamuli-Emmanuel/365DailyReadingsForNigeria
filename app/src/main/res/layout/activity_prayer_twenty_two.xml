@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#212F3D"
+    android:padding="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prayerTwentyTwo">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addprayertwentytwo"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarprayertwentytwo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Healing Prayer"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="My Lord. Jesus my precious Lord, I thank you for your enduring love. You came into the world to set me free from the power of darkness. You embraced a violent death on the cross to pay the penalty on my behalf. You suffered the scourging at the pillar, taking the sickness and suffering of humanity upon your own flesh, so that I can be healed. I come before you now to place all my sin upon your cross and ask for your precious Blood to wash me clean."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I place all my sinfulness, all my sickness, diseases and infirmities upon your Cross, and for the sake of your sorrowful passions, I ask you to set me free."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I accept your sacrifice and receive your gift of reconciliation. I confess your Lordship over every aspect of my life, heart, mind, body, soul and spirit."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Through the power of your cross Lord Jesus, I now resist all forms of sin, sickness and disease."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I say to all forms of sickness and disease caused by my own disobedience, to depart now and I enforce the power of the cross upon you right now, by the shed Blood of the Lord Jesus Christ of Nazareth, I command all forms of sickness and diseases to leave my body immediately."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jesus bore my infirmities He was wounded for my transgressions, by his stripes I have been healed. No sickness, pain, death, fear or addiction shall ever be Lord over me again. The penalty has been paid in full. I have been ransomed and redeemed, sanctified and set free. in the name of Jesus that is above every other name, through Christ our Lord, Amen."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#212F3D"
+    android:padding="8dp"
+    android:layout_height="match_parent"
+    tools:context=".stationOfTheCross">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addstationofthecross"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarstationofthecross"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Stations of the Cross"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="8dp"
+        android:background="#fff"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="30dp"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:id="@+id/wayofthecross"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:text="Way of the Cross"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:background="#D5D5D4"
+                android:layout_height="2dp" />
+
+            <LinearLayout
+                android:id="@+id/augustinacommunity"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:text="Augustinian Community"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:background="#D5D5D4"
+                android:layout_height="2dp" />
+
+
+
+            <LinearLayout
+                android:id="@+id/archabuja"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="Archdiocese of Abuja "
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:background="#D5D5D4"
+                android:layout_height="2dp" />
+
+
+
+            <LinearLayout
+                android:id="@+id/benin"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="Archdiocese of Benin "
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:background="#D5D5D4"
+                android:layout_height="2dp" />
+
+            <LinearLayout
+                android:id="@+id/lagos"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="Archdiocese of Lagos "
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:background="#D5D5D4"
+                android:layout_height="2dp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recystation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,2895 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#212F3D"
+    android:padding="8dp"
+    android:layout_height="match_parent"
+    tools:context=".prayerSeven">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addprayerseven"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarprayerseven"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Litany of the Saints"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginTop="10dp"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Lord, have mercy on us."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, have mercy on us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Christ, have mercy on us."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Christ, have mercy on us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Lord, have mercy on us."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, have mercy on us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Christ, hear us."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Christ, graciously hear us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginTop="10dp"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="God, the Father of heaven"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Have mercy on us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="God the Son, Redeemer of the world"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Have mercy on us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="God the Holy Spirit"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Have mercy on us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Holy Trinity, one God"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Have mercy on us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="10dp"
+                            android:padding="2dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Holy Mary"
+                                android:textColor="#000"
+                                android:textSize="14dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Pray for us."
+                                android:textColor="#ff0000"
+                                android:textSize="14dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Holy Mother of God"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Holy Virgin of virgins"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Michael"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Gabriel"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Raphael"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="All you Holy Angels and Archangels"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. John the Baptist"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Joseph"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="All you Holy Patriarchs and Prophets"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Peter"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Paul"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Andrew"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. James"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. John"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Thomas"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. James"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Philip"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Bartholomew"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Matthew"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Simon"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Jude"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Matthias"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Barnabas"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Luke"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Mark"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="All you holy Apostles and Evangelists"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="All you holy Disciples of the Lord"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="All you holy Innocents"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Stephen"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Lawrence"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Vincent"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Sts. Fabian and Sebastian"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Sts. John and Paul"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Sts. Cosmas and Damian"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="All you holy Martyrs"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Sylvester"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Gregory"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Ambrose"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Augustine"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Jerome"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Martin"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Nicholas"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="All you holy Bishops and Confessors"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="All you holy Doctors"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Anthony"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Benedict"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Bernard"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Spare us, O Lord."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Dominic"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Graciously hear us, O Lord."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Francis"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Have mercy on us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="All you holy Priests and Levites"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="That we may be made worthy of the promises of Christ."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="All you holy Monks and Hermits"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="That we may be made worthy of the promises of Christ."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginTop="10dp"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Mary Magdalene"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Agatha"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Lucy"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Agnes"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Cecilia"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Anastasia"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Catherine"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="St. Clare"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="All you holy Virgins and Widows"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="All you holy Saints of God"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Pray for us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Lord, be merciful"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, save your people"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="From all evil"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, save your people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="From all sin"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, save your people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="From your wrath"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, save your people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="From a sudden and unprovided death"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, save your people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="From the snares of the devil"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, save your people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="From anger, hatred, and all ill-will"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, save your people"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="From the spirit of uncleanness"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, save your people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="From lightning and tempest"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, save your people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="From the scourge of earthquake"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, save your people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="From plague, famine"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, save your people"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="From everlasting death"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, save your people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="By the mystery of your holy Incarnation"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="SLord, save your people"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="By your Coming"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, save your people"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="By your Birth"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, save your people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="By your Baptism and holy fasting"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, save your people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="By your Cross and Passion"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, save your people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="By your Death and Burial"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, save your people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="By your holy Resurrection"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, save your people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="By your wonderful Ascension"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, save your people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="By the coming of the Holy Spirit"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, save your people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="On the day of judgment"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, save your people"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Be merciful to us sinners"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, hear our people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="That you will spare us"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, hear our people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="That you will pardon us"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, hear our people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="That it may please you to bring us to true
+penance"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, hear our people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Guide and protect your holy Church"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, hear our people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Preserve in holy religion the Pope, and all
+those in holy Orders"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, hear our people"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Humble the enemies of holy Church"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, hear our people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Give peace and unity to the whole Christian
+people"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, save your people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Bring back to the unity of the Church all"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="those who are straying, and bring all
+unbelievers to the light of the Gospel"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, hear our people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Strengthen and preserve us in your holy
+service"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, hear our people"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Raise our minds to desire the things of
+heaven"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, hear our people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Reward all our benefactors with eternal
+blessings"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, hear our people"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Deliver our souls from eternal damnation,
+and the souls of our brethren, relatives,
+and benefactors"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, hear our people"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Give and preserve the fruits of the earth"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, hear our people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Grant eternal rest to all the faithful departed"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, hear our people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="That it may please You to hear and heed
+us, Jesus, Son of the Living God"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, hear our people."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Lamb of God, who takes away the sins of the world"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Spare us, O Lord!"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Lamb of God, who takes away the sins of the world"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Graciously hear us, O Lord!"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Lamb of God, who takes away the sins of the world"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Have mercy on us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Christ, hear us"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Christ, graciously hear us"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Lord Jesus, hear our prayer."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord Jesus, hear our prayer."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Lord, have mercy on us."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, have mercy on us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Christ, have mercy on us."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Christ, have mercy on us."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Lord, have mercy on us."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Lord, have mercy on us."/>
+                        </LinearLayout>
+
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#212F3D"
+    android:padding="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prayerFifteen">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addprayerfifteen"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarprayerfifteen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Prayers to Our Lady Mary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        android:text="Angelus"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. The Angel of the Lord declared unto Mary,
+R. And she conceived of the Holy Spirit. Hail Mary, etc..."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. Behold the handmaid of the Lord. R. Be it done unto me according to Your Word. Hail Mary, etc..."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. And the Word was made flesh, R. And dwelt among us. Hail Mary, etc..."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. Pray for us, O holy Mother of God. R. That we may be made worthy of the promises of Christ."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        android:text="Let us pray:"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pour forth, we beseech You, O Lord,
+Your Grace into our hearts;
+that as we have known the incarnation of Christ,
+your Son by the message of an angel,
+so by His passion and cross
+we may be brought to the glory of His Resurrection.
+Through the same Christ, our Lord.
+Amen."
+                        android:textColor="#ff0000"
+                        android:textStyle="italic"
+                        android:padding="10dp"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        android:text="Regina Coeli"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. O Queen of heaven, rejoice"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Alleluia!"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. For him whom you did merit to bear"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Alleluia!"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. Has risen, as he said"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Alleluia!"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. Pray for us to God"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Alleluia!"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. Rejoice and be glad, O Virgin Mary"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Alleluia!"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. For the Lord is truly risen"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Alleluia!"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let Us Pray"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:text="O God, who gave joy to the world through the resurrection of your Son our Lord Jesus Christ, grant we beseech thee, that through the intercession of the Virgin Mary, his mother, we may obtain the joys of everlasting life, through the same Christ our Lord. Amen."
+                        />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="We fly to your Patronage"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:text="We fly to thy patronage, O Holy mother of God, despise not our petitions, in our necessities but deliver us from all dangers, O ever glorious and Blessed Virgin. Amen."
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Memorare"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:text="Remember, O most gracious Virgin Mary, that never was it known that anyone who fled to thy protection, implored thy help, or sought thy intercession was left unaided. Inspired with this confidence, I fly to thee, O Virgin of virgins, my mother; to thee do I come; before thee I stand, sinful and sorrowful. O Mother of the word Incarnate, despise not my petitions, but in thy mercy hear and answer me. Amen."
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hail Mary"
+                        android:padding="10dp"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:text="Hail Mary, full of grace, the Lord is with thee: blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now, and at the hour of our death. Amen."
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="10dp"
+                        android:layout_height="wrap_content"
+                        android:text="Prayer to Our Lady Under of Knots"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:text="O Virgin Mary, Mother who never refuses to come to the aid of a child in need, Mother whose hands never cease working for your children's well-being! Mother whose hands are moved by the divine love and immense mercy that exists in your heart, cast your compassionate eyes upon me and see the snarl of knots that exists in my life. I entrust into your hands the ribbon of my life and every knot that afflicts me so much. In Jesus name, O Powerful Mother, and by your intercessory power, I beseech you to undo these knots. I beg you to undo them for the glory of God, once for all. Our Lady of knots pray for me. Amen."
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="10dp"
+                        android:layout_height="wrap_content"
+                        android:text="Prayer to Our Lady Of Surprises"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:text="O Mary my mother and Lady of surprises, what a happy day to the wedding quest when you ask your son to work the miracle of water into wine. What a happy surprise for them since they thought the wine had run dry. I too Mary love surprised and as your child I ask you to favour me with one during this novena (Mention your special intentions). I ask this only because you are my ever caring Mother. Amen. Our Lady of Surprises, favour me with one today. Amen."
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="10dp"
+                        android:layout_height="wrap_content"
+                        android:text="Prayer on the Assumption of Mary"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:text="Father in heaven, all creation rightly gives you praise for all life and all holiness come from you.
+In the plan of Your wisdom she who bore the Christ in her womb was raised body and soul in glory to be with Him in heaven.
+May we follow her example in reflecting your holiness and join in her hymn of endless life and praise.
+We ask this through Christ our Lord."
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="10dp"
+                        android:layout_height="wrap_content"
+                        android:text="Affectionate Salutation to Mary"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:layout_height="wrap_content"
+                        android:text="I greet thee, Mary,"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="2dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textStyle="italic"
+                        android:text="Daughter of God the Father."
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:text="I greet thee, Mary,"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:textStyle="italic"
+                        android:text="Mother of the Son of God."
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:text="I greet thee, Mary,"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:textStyle="italic"
+                        android:text="Spouse of the Holy Spirit."
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:text="I greet thee, Mary,"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textStyle="italic"
+                        android:padding="2dp"
+                        android:text="Temple of the Blessed Trinity."
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:text="I greet thee, Mary,"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:textStyle="italic"
+                        android:text="White Lily of the resplendent Trinity."
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:text="I greet thee, Mary,"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:textStyle="italic"
+                        android:text="Fragrant Rose of the heavenly court"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:text="I greet thee, Mary,"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:text="Virgin full of meekness and humility,"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:textStyle="italic"
+                        android:text="of whom the King of Heaven willed to be born and nourished by thy milk."
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:text="I greet thee, Mary,"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:textStyle="italic"
+                        android:text="Virgin of Virgins."
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:text="I greet thee, Mary,"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:textStyle="italic"
+                        android:text="Queen of martyrs, whose soul was pierced by the sword of sorrows."
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:text="I greet thee, Mary,"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:textStyle="italic"
+                        android:text="Lady and Mistress, to whom all power has been given in Heaven and on earth."
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:text="I greet thee, Mary,"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:textStyle="italic"
+                        android:text="Queen of my heart, my sweetness, my life and all my hope."
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:text="I greet thee, Mary,"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:textStyle="italic"
+                        android:text="Mother most amiable"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:text="I greet thee, Mary,"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:textStyle="italic"
+                        android:text="Mother most admirable."
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:text="I greet thee, Mary,"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:textStyle="italic"
+                        android:text="Mother of beautiful love."
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:text="I greet thee, Mary,"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:textStyle="italic"
+                        android:text="Conceived without sin."
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:text="I greet thee, Mary,"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:textStyle="italic"
+                        android:text="Full of grace, the Lord is with thee, blessed art thou among women, and blessed be the Fruit of thy womb."
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:text="Blessed be thy spouse, Saint Joseph."
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:textStyle="italic"
+                        android:text="Blessed be thy father, Saint Joachim."
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:text="Blessed be thy mother, Saint Anne"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textStyle="italic"
+                        android:padding="2dp"
+                        android:text="Blessed be thy angel, Saint Gabriel."
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:text="Blessed be the Eternal Father, who has chosen thee."
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:textStyle="italic"
+                        android:text="Blessed be thy Son, Who has loved thee."
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:text="Blessed be the Holy Ghost, Who has espoused thee"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:textStyle="italic"
+                        android:text="May all those who love thee bless thee."
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:padding="2dp"
+                        android:text="O Blessed Virgin, bless us all in the name of thy dear Son. Amen."
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="10dp"
+                        android:layout_height="wrap_content"
+                        android:text="Prayer to Mary our Mother"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:text="Mary my Mother of Perpetual Help, with trust in you as my spiritual mother in the family of Christ Jesus, I implore your maternal intercession, inspired me by the example of your life and faith in the name of Jesus, I think of you at that moment when, full of faith and trust, you accepted God's call to be the mother of His Son. Help me, your child, to accept with joy my own calling in life in the name of Jesus. When you learned that your cousin Elizabeth was in need you immediately went to serve her and offer your help. Help me, like you, to be concerned for others in the name of Jesus. I think of you, Mother, at the foot of the cross. Your heart must have bled to see your Son in agony. But your Joy was great when he rose from the dead, victorious over the powers of evil. Mother of sorrows, help me through the trials and disappointments of life. Help me not to lose heart. May I share with you and your Son the joy of having courageously faced all the challenges of life in the name of Jesus. Amen."
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="10dp"
+                        android:layout_height="wrap_content"
+                        android:text="Thanking God with Mary"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:text="O Mother of Perpetual Help, with grateful hearts we join you in thanking God for all the wonderful things he has done for us, especially for giving us Jesus, your Son, as our Redeemer. O God, our creator, we thank you for the gift of life. Despite our failures, you continue to show your love for us today by increasing the life of your Spirit in us at the Eucharistic table. We thank you, loving Father, for giving us Mary, the Mother of your Son, to be our Mother of Perpetual Help. We are grateful to you Lord Jesus for all the favours, we have received through her intercession. We pray that those past favours may inspire us to greater confidence in your loving mercy and to seek the aid of our Mother of Perpetual Help. Amen."
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="10dp"
+                        android:layout_height="wrap_content"
+                        android:text="Imploring the Intercession of Our Mother of Perpetual Help"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:text="Mother of Perpetual Help, you have been blessed and favoured by God. You became not only the Mother of the Redeemer, but mother of the redeemed as well. I come to you today as your loving child. Watch over me and take care of me. As you held the Child Jesus in your loving arms, so take me in your arms. Be a mother ready at every moment to help me. For God is mighty has done great things for you, and God's mercy is from age to age on those who love God. Intercede for me, dear Mother, in obtaining pardon for our sins, love for Jesus, final perseverance, and the grace always live a life pleasing to Jesus in Jesus precious name I pray-Amen. Mother of Perpetual Help-pray for me."
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="10dp"
+                        android:layout_height="wrap_content"
+                        android:text="Magnificat"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:text="My soul proclaims the greatness of the Lord,
+my spirit rejoices in God my Savior
+for he has looked with favor on his lowly servant.
+From this day all generations will call me blessed:
+the Almighty has done great things for me,
+and holy is his Name."
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="8dp"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:text="He has mercy on those who fear him
+in every generation.
+He has shown the strength of his arm,
+he has scattered the proud in their conceit.
+He has cast down the mighty from their thrones,
+and has lifted up the lowly."
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="8dp"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:text="He has filled the hungry with good things,
+and the rich he has sent away empty.
+He has come to the help of his servant Israel
+for he has remembered his promise of mercy,
+the promise he made to our fathers,
+to Abraham and his children for ever."
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="10dp"
+                        android:layout_height="wrap_content"
+                        android:text="Daily renewal of Consecration to the Immaculate Heart of Mary"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:text="Queen of the Most Holy Rosary, I renew my consecration to you and to your Immaculate Heart. Please accept me, my dear Mother, and use me as you wish to accomplish your designs upon the world. I am all yours, my Mother, my Queen, and all that I have is yours."
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            app:cardCornerRadius="8dp"
+            android:background="#fff"
+            android:layout_marginBottom="2dp"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="30dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:text="ACT OF CONSECRATION TO THE IMMACULATE HEART OF MARY"
+                android:textColor="#ff0000"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="Any formula may be used to consecrate oneself to the Mother of God, as long as it involves a total oblation of oneself. As a suggestion, one of the following consecrations could be renewed each first Saturday with the shorter formula renewed daily."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="8dp"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:text="O Virgin Mary, most powerful Mother of Mercy, Queen of Heaven and earth, in accordance with your wish made known at Fatima, I consecrate myself today to your Immaculate Heart. To you I entrust all that I have, all that I am. Reign over me, dearest Mother, that I may be yours in prosperity, in adversity, in joy and in sorrow, in health and in sickness, in life and in death."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="8dp"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:text="Most compassionate Heart of Mary, Queen of Virgins, watch over my mind and heart and preserve me from the deluge of impurity which you lamented so sorrowfully at Fatima. I want to be pure like you. I want to atone for the many crimes committed against Jesus and you. I want to call down upon this country and the whole world the peace of God in justice and charity."
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="8dp"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:text="Mindful of this consecration, I now promise to strive to imitate you by the practice of the Christian virtues without regard for human respect. I resolve to receive Holy Communion on the first Saturday of every month when possible, and to offer daily five decades of the Rosary, with all my sacrifices in the spirit of penance and reparation. Amen."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="8dp"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:text="I, . . ., a faithless sinner, renew and ratify today in thy Heart, O Immaculate Mother, the vows of my Baptism; I renounce forever Satan, his pomps and works; and I give myself entirely to Jesus Christ, the Incarnate Wisdom, to carry my cross after Him all the days of my life, and to be more faithful to Him than I have ever been before."
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="8dp"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:text="Queen of the Most Holy Rosary, in the presence of all the heavenly court, I choose thee this day for my Mother and Mistress. I deliver and consecrate to thee, and to thy Immaculate Heart, as thy child and slave of love, my body and soul, my goods, both interior and exterior, and even the value of all my good actions, past, present and future; leaving to thee the entire and full right of disposing of me, and all that belongs to me, without exception, according to thy good pleasure, for the greater glory of God, in time and in eternity. Amen."
+                />
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            app:cardCornerRadius="8dp"
+            android:background="#fff"
+            android:layout_marginBottom="2dp"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="30dp"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:text="The Hail Holy Queen"
+                android:textColor="#ff0000"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:text="Hail, holy Queen mother of mercy, hail, our life, and our sweetness and our hope! To you do we cry, poor banished children of Eve; to you do we send up our sighs, mourning and weeping in this vale of tears. Turn then, most gracious advocate, your eyes of mercy towards us, and after this our exile, show us the fruit of your womb, Jesus. O clement, O loving: O sweet Virgin Mary."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:text="V. Pray for us, O holy Mother of God."
+                />
+
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            app:cardCornerRadius="8dp"
+            android:background="#fff"
+            android:layout_marginBottom="2dp"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="30dp"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:text="That we may be made worthy of the promises of Christ."
+                android:textColor="#ff0000"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="8dp"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:text="Let us pray:"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="8dp"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:text="O God whose only-begotten Son, by his life, death and resurrection, has purchased for us the rewards of eternal life; grant we beseech you, that meditating on these mysteries of the most Holy Rosary of the Blessed Virgin Mary, we may both imitate what they contain, and obtain what they promise, through the same Christ our Lord. Amen."
+                />
+
+
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

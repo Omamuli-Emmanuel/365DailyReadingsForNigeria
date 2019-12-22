@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pentDayOne">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addpentdayone"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarpentdayone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Pentecost Novena Day One"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="DAY 1 : I BELIEVE IN THE HOLY SPIRIT"
+                        android:padding="10dp"
+                        android:textSize="14sp"
+                        android:textColor="#337E06  "
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="INTRODUCTION:"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="As we begin our Novena to the Holy Spirit, let us be aware that we are the Church. It is in the assembly of God's people where the Holy Spirit makes Himself known. This is an assembly of God's people with Jesus as our Head. As we become aware of being God's people, we also become aware of our many failures to live up to our calling, our selfishness, our lack of love and concern for people in our family and among our neighbours and friends. We, therefore, begin by asking pardon of God for our many failures to be truly God's people."
+                        android:textColor="#000"
+                        android:textStyle="italic"
+                        android:padding="3dp"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PRAYER POINT:"
+                        android:textColor="#ff0000"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dear Lord Jesus, I ask you to send forth the power of the Holy Spirit into the lives of everyone in our parish community and all of us using this 365 Reading App. If any members of the clergy are ensnared with the sins of clericalism, legalism, hypocrisy, spiritual pride, complacency, teaching false doctrines, exhibiting pharisaic attitudes, or displaying an outward form of godliness while inwardly denying your power, I ask you to send forth the gift of your Holy Spirit's conviction. If any member of the laity is polluting the spiritual atmosphere of the church through their sins of idol worship, clergy worship, superstitious behaviours, complacency, spiritual stagnation, legalism, materialism, gossip, judgmental or pharisaic attitudes, I ask you to send forth the power of your Holy Spirit to convict us of our sins. Gently lead all sinners back into a state of grace where they can authentically connect and commune with you in spirit and in truth. Please purify the spiritual atmosphere and airspace that surrounds your sacred assembly. Cleanse the congregation so that your Holy Spirit may dwell inside the lives and hearts of all your beloved children. May the grandeur of your holy presence be so profoundly encountered within your courts that all your children will be ignited with a fervent passion to serve you all the days of their lives. I ask this through my Lord Jesus Christ, your son, who lives and reigns with you and the Holy Spirit, one God, forever and ever. Amen."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. OPENING HYMN (Hymn to the Holy Spirit)"
+                        android:textColor="#000"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Invocation of The Holy Spirit"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Come, O Holy Sairt, fill the hearts of the faithful and enkindle in them the fire of your love."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. Send forth your Spirit and they shall be created"
+                        android:textColor="#000"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. And you shall renew the face of the earth."
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textColor="#ff0000"
+                        android:text="Let Us Pray:"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="O God, who taught the hearts of the faithful by the light of the Holy Spirit, grant that by the gift of the same Spirit we may be always truly wise and ever rejoice in his consolation, Through Christ Our Lord."
+                        android:textColor="#000"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Amen"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"
+                        android:textStyle="bold"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Our Father who art in heaven, hallowed be Thy Name. Thy kingdom come. Thy will be done on earth as it is in heaven. Give us this day our daily bread, and forgive us our trespasses, as we forgive those who trespass against us, and lead us not into temptation, but deliver us from evil. Amen."
+                        android:textColor="#000"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hail Mary, full of grace, the Lord is with thee: blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now, and at the hour of our death. Amen."
+                        android:textColor="#000"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Glory be to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen. (7x)"
+                        android:textColor="#000"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. ACT OF CONTRITION -  O my God, I am sorry and beg pardon for all my sins, and detest them above all things, because they have crucified my loving Saviour Jesus Christ, and, most of all, because they offend your infinite goodness; and I firmly resolve, by the help of your grace, never to offend you again, and carefully avoid the occasion of sin."
+                        android:textColor="#000"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. PRAYER FOR THE SEVEN GIFTS OF THE HOLY GHOST:"
+                        android:textColor="#000"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(To be recited daily during the Novena)"
+                        android:textColor="#ff0000"
+                        android:padding="2dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="O LORD JESUS CHRIST, Who before ascending into Heaven didst promise to send the Holy Ghost to finish Thy work in the souls of Thine Apostles and Disciples, deign to grant the same Holy Spirit to me, that He may perfect in my soul the work of Thy grace and Thy love. Grant me the Spirit of Wisdom, that I may despise the perishable things of this world and aspire only after the things that are eternal; the Spirit of Understanding, to enlighten my mind with the light of Thy Divine truth; the Spirit of Counsel, that I may ever choose the surest way of pleasing God and gaining Heaven; the Spirit of Fortitude, that I may bear my cross with Thee and that I may overcome with courage all the obstacles that oppose my salvation; the Spirit of Knowledge, that I may know God and know myself and grow perfect in the science of the Saints; the Spirit of Piety, that I may find the service of God sweet and amiable; the Spirit of Fear, that I may be filled with a loving reverence towards God and may dread in any way to displease Him. Mark me, Dear Lord, with the sign of Thy true disciples, and animate me in all things with Thy Spirit. Amen."
+                        android:textColor="#000"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. PRAYER TO THE HOLY SPIRIT:"
+                        android:textColor="#000"
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Breathe into me Holy Spirit that my thoughts may all be holy.
+Move in me, Holy Spirit that my work too, may be holy.
+Attract my heart Holy Spirit that I may love only what is holy.
+Strengthen me Holy Spirit that I may defend all that is holy.
+Protect me, Holy Spirit that I may always be holy."
+                        android:textColor="#000"
+                        android:padding="3dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5. BIBLE READING"
+                        android:textColor="#000"
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(1 Cor. 2:9-12 )"
+                        android:textColor="#ff0000"
+                        android:padding="2dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6. LET US PRAY:"
+                        android:textColor="#000"
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I ask Your forgiveness for every sin of mine. Heal me of all the hurts, anger, guilt feelings and all painful memories that linger in my deepest being. I have sinned, Lord, against You and against my neighbour. Jesus, You are present in the Eucharist. Lord, do come into my heart. While You are in my heart, I have nothing to fear, for You are the Son of God, and in my heart You are near."
+                        android:textColor="#000"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In You is life, and in Your life, Lord Jesus, I find life. You touched the bleeding woman and healed her. Have mercy on me, Lord. It is You Who guide me with Your strength and make me righteous in Your presence. Lord, God, You are almighty. You are merciful. You have touched me and healed me of all my ailments of soul, mind and body. I thank You specially for bringing me closer to You, for loving and protecting me and for healing me completely. With deep faith in my heart, I adore You my loving Jesus Who with the Father and the Holy Spirit are God for ever and ever. Amen."
+                        android:textColor="#000"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7. Closing / Concluding Hymn"
+                        android:textColor="#000"
+                        android:padding="3dp"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

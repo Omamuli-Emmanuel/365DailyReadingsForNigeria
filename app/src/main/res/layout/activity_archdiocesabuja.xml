@@ -1,0 +1,2128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".archdiocesabujaActivity">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addarchdiocesabuja"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbararchdiocesabuja"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Archdiocese of Abuja (Station of the Cross)"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="OPENING PRAYER"
+                        android:padding="8dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. We adore you, O Christ, and we bless you"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. because by your holy cross you have redeemed the world."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let us pray"
+                        android:layout_marginTop="15dp"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="God our father, in obedience to you your only Son accepted death on the cross for the salvation of mankind, we acknowledge the mystery of the cross on earth. May we receive the gift of redemption in heaven. We ask this through Christ our Lord. Amen."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. Have mercy on us, O Lord!"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Have mercy on us!"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hymn"
+                        android:layout_marginTop="15dp"
+                        android:padding="8dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="At the cross her station keeping"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Stood the mournful mother weeping"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Close to Jesus to the last,"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="First Station"
+                        android:padding="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JESUS IS CONDEMNED TO DEATH"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. We adore you, O Christ, and we bless you"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Because by your holy cross you have redeemed the world."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="From the Gospel of St. John"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:layout_marginTop="15dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pilate was anxious to set him free, but the Jews shouted,If you set him free you are no friend of Caesar's anyone who makes himself king is defying Caesar Hearing these words Pilate had Jesus brought out.;Here is your king he said to the Jews.Take him away, take him away! They said Crucify him! Do you want me to crucify your king? said Pilate.The chief priests answered,We have no king except Caesar So in the end Pilate handed him over to them to be crucified. (Jn. 19:12-13a; 15-16). "
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Words of Our Lord"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:layout_marginTop="15dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Father loves me, because I lay down my life in order to take it up again. No one takes it from me; I lay it down of my own free will, and as it is in my power to lay it down, so it is in my power to take it up again, and this is the command I have been given by my father(Jn. 10:17-18)"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let us pray"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lord, by shedding his blood for us, your Son, Jesus Christ, established the paschal mystery. In your goodness, make us holy and watch over us always. We ask this through the same Christ our Lord. Amen."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. Have mercy on us, O Lord"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Have mercy on us!"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hymn"
+                        android:layout_marginTop="10dp"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Through her heat his sorrow sharing"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="All his bitter anguish bearing."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Now at length the sword had passed"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Second Station "
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JESUS RECEIVES THE CROSS"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. We adore you, O Christ, and we bless you"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Because by your holy cross you have redeemed the world."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="From the Gospel of St. John"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="They then took charge of Jesus, and carrying his own cross he went out of the city to the place of the skull or, as it was called in Hebrew, Golgotha. (Jn. 19:17)"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="Words of Our Lord"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="If anyone wants to be a follower of mine, let him renounce himself and take up his cross and follow me. For anyone who wants to save his life will lose it; but anyone who loses his life for my sake will find it. What, then, will a man gain if he wins the whole world and ruins his life? Or what has a man to offer in exchange for his life? (Mt. 16:24-26)."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let us pray"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Almighty and everliving God, you gave our Saviour the command to become man and undergo the cross, as an example for all men to follow. We have the lessons of his sufferings: give us also the fellowship of his resurrection. We ask this through Christ our Lord.Amen."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. Have mercy on us, O Lord"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Have mercy on us!"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hymn"
+                        android:layout_marginTop="15dp"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Oh, how sad and sore distressed"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Was that mother highly blest"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Of the sole-begotten one."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Third Station"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JESUS FALLS THE FIRST TIME UNDER HIS CROSS"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. We adore you, O Christ, and we bless you"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Because by your holy cross you have redeemed the world."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="From the Prophet Isaiah"
+                        android:padding="3dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Lord Yahweh has opened my ear. For my part, I made no resistance, neither did I turn away, I offered my back to those who struck me, my cheeks to those who tore at my beard: I did not cover my face against insult and spittle, The Lord Yahweh comes to my help, so that I am untouched by the insults. So, too, I set my face like flint; I know I shall not be shamed. (Is. 50:5-7)"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Words of Our Lord"
+                        android:padding="3dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I tell you, most solemnly, unless a wheat grain fall on the ground and dies, it remains only a single grain; but if it dies, it yields a rich harvest. Anyone who loves his life loses it; anyone who hates his life in this world will keep it for the eternal life. Now my soul is troubled. What shall I say; Father, save me from this hour? But it was for this very reason that I have come to this hour: Father glorify your name! (Jn. 12:24-25:27-28)."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let us pray"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Father, through the obedience of Jesus, your servant and your Son, you raised a fallen world. Free us from sin and bring us to the joy that lasts forever. We ask this through Christ our Lord. Amen."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. Have mercy on us, O Lord"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Have mercy on us!"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hymn"
+                        android:layout_marginTop="15dp"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Christ above in torment hangs:"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="She beneath beholds the pangs"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Of her dying glorious Son."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fourth Station"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JESUS IS MET BY HIS BLESSED MOTHER"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. We adore you, O Christ, and we bless you"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Because by your holy cross you have redeemed the world."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="From the Gospel of St. Luke"
+                        android:padding="3dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Simeon blessed them and said to Mary his mother, You see this child: he is destined for the fall and for the rising of many in Israel, destined to be a sign that is rejected and a sword will pierce your own soul too so that the secret thoughts of many may be laid bare(Lk. 2:34-35)."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Words of Our Lord"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:layout_marginTop="15dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I have come so that they may have life and have it to the full. I am the good shepherd; I know my own and my own know me, just as the Father knows me and I know the Father: and I lay down my life for my sheep(Jn. 10:10b; 14-15)."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let us pray"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Father, you prepared the Virgin Mary to be a worthy mother of your Son. You let her share beforehand in the salvation Christ would bring by his death, and kept her sinless from the first moment to her being. Help us by her prayers to live in your presence without sin. We ask this through Christ our Lord. Amen."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. Have mercy on us, O Lord"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Have mercy on us!"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hymn"
+                        android:layout_marginTop="15dp"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Is there one who would not weep,"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Whelmed in miseries so deep,"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Christ's dear mother to behold."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fifth Station"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="THE CROSS IS LAID UPON SIMON OF CYRENE"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. We adore you, O Christ, and we bless you"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Because by your holy cross you have redeemed the world."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="From the Gospel of St. Mark"
+                        android:padding="3dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="They enlisted a passer-by, Simon of Cyrene, father of Alexander and Rufus, who was coming in from the country, to carry his cross. (Mk. 15:21)."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Words of Our Lord"
+                        android:padding="3dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The disciple is not superior to his teacher, not the slave to his master. It is enough for the disciple that he should grow to be like his teacher and the slave like his master. If they have called the master of the house Beelzebul, what will they not say of his house-hold? Do not be afraid of those who kill the body but cannot kill the soul; fear him rather who can destroy both body and soul in hell(Mt. 10:24-25. 28)."
+                        android:padding="3dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let us pray"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Father, by the blood of your own Son you have set all men free and saved us from death. Continue your work of love within us, that by constantly celebrating the mystery of our salvation we may reach the eternal life it promises. We ask this through Christ our Lord. Amen."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. Have mercy-on us, O Lord"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Have mercy on us!"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hymn"
+                        android:layout_marginTop="15dp"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Can the human heart refrain"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="From partaking in his pain,"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In that Mother's pain untold?"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sixth Station"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="VERONICA WIPES THE FACE OF JESUS"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. We adore you O Christ, and we bless you"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Because by your holy cross you have redeemed the world."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="From the Prophet Isaiah"
+                        android:padding="3dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:text="Who could believe what we have heard, and to whom has the power of Yahweh been revealed? Like a sapling he grew up in front of us, like a root in and ground. Without beauty, without majesty we saw him, no looks to attract our eyes; a thing despised and rejected by men, a man of sorrows and familiar with suffering, a man to make people screen their faces; he was despised and we took no account of him. (Is. 53:1-3)."
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Words of Our Lord"
+                        android:padding="3dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Whoever sees me; sees the one who sent me. I, the light, have come into the world, so that whoever believes in me need not stay in the dark anymore.(Jn. 12:45-46)"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+
+                    <TextView
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let us pray"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="God our Father, no secret is hidden from you, for every heart is open to you and every. Wish is known. Fill our hearts with the light of your Holy Spirit to free our thoughts from sin, that we may perfectly love you and fittingly praise you. We ask this through Christ our Lord. Amen."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. Have mercy on us, O Lord"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Have mercy on us!"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hymn:"
+                        android:layout_marginTop="15dp"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bruised, derided, cursed, defiled,"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="She beheld her tender child."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="All with bloody scourges rent."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Seventh Station"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JESUS FALLS THE SECOND TIME"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. We adore you, O Christ, and we bless you"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Because by your holy cross you have redeemed the world,"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="From the Prophet Isaiah"
+                        android:padding="3dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="And yet ours were the sufferings he bore, ours the sorrows he carried. But we, thought of him as someone punished, struck by God, and brought low. Yet he was pierced through for our faults, crushed for our sins. On him lies a punishment that brings us peace, and through his wounds we are healed. We had all gone astray like sheep each taking his own way, and Yahweh burdened. Him with the sins of all of us (IS 53:4-6)."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Words of our Lord"
+                        android:padding="3dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Be like men who are waiting for their master to return from the wedding feast, ready to open the door as soon as he comes and knocks. Happy those servants whom the master finds awake when he comes. You too must stand ready, because the Son of Man is coming at an hour you do not expect(Lk. 12:36-37:40)"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let us pray"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Almighty God, grant that we who are constantly betrayed by our own weakness, may draw the breath of new life from the passion and death of your only begotten Son. We ask this through the same Christ our Lord. Amen."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. Have mercy on us, O Lord"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Have mercy on us!"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hymn:"
+                        android:layout_marginTop="15dp"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="For the sins of his own nation."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Saw him hang in desolation"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Till his spirit forth he sent"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Eighth Station"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="THE WOMEN OF JERUSALEM MOURN FOR OUR LORD"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. We adore you, O Christ, and we bless you"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Because by your holy cross you have redeemed the world."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="From the Gospel of St. Luke"
+                        android:padding="3dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Large numbers of people followed him, and of women too, who mourned and lamented for him. But Jesus turned to them and said,;Daughters of Jerusalem, do not weep for me; weep rather for yourselves and for your children. for the days will surely come when people will say,Happy are those who are barren, the wombs that have never home, the breasts that have never suckled!Then they will begin to say to the mountains,Fall on us! to the hills,Covers us!For if men use the green wood like this, what will happen when it is dry? (Lk. 23:27)"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Happy those who mourn; they shall be comforted. Happy those who are persecuted in the cause of right: theirs is the kingdom of heaven. Happy are you when people abuse you and persecute you and speak all kinds of calumny against you on my account. Rejoice and be glad, for your reward will be great in heaven.(Mt. 5:5; 10..; 12)"
+                        android:padding="3dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let us pray"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Father, help us to be like Christ your Son; who loved the world and died for our salvation, inspire us by his love, guide us by his example. We ask this through the same Christ our Lord. Amen."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. Have mercy on us, O Lord"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Have mercy on us!"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hymn"
+                        android:layout_marginTop="10dp"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="O thou mother! Fount of love!"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Touch my spirit from above."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Make my heart with thine accord."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ninth Station"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JESUS FALLS FOR THE THIRD TIME"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. We adore you, O Christ, and we bless you"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Because by your holy cross you have redeemed the world."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="From the prophet Isaiah"
+                        android:padding="3dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="By force and by law he was taken; would anyone plead his case? Yes, he was torn away from the land of the living; for our faults struck down in death. They gave him a grave with the wicked, a tomb with rich, though he had done no wrong and there had been no perjury in his mouth. Yahweh had been pleased to crush him with suffering. If he offers his life in atonement, he shall see his heirs, he shall have a long life and through him what Yahweh wishes will be done. (Is. 53:8-10)."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Words of Our Lord"
+                        android:padding="3dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Come to me, all you who labour and are overburdened and I will give you rest. Shoulder my yoke and learn from me, for I am gentle and humble of heart, and you will find rest for your souls. Yes, my yoke is easy and my burden light. (Mt. 11:28-30)"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let us pray"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lord may the suffering and death of Jesus, your only Son, make us pleasing to you. Alone we can do nothing but may his perfect sacrifice win us your mercy and love. We ask through Christ our Lord. Amen."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. Have mercy on us, O Lord"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Have mercy on us!"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hymn"
+                        android:layout_marginTop="10dp"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Make me feel as thou hast felt;"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Make my soul to glow and melt"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="With the love of Christ my Lord."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tenth Station"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JESUS IS STRIPPED OF HIS GARMENTS"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. We adore you, O Christ, and we bless you"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Because by your holy cross you have redeemed the world."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="From the Gospel of St. John"
+                        android:padding="3dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="When the soldiers had finished crucifying Jesus they took his clothing and divided it into four shares, one for each solder. His undergarment was seamless, woven in one piece from neck to hem; so they said to one another,Instead of tearing it, let's throw dice to decide. Who is to have it. In this way the words of scripture were fulfilled:They shared out my clothing among them. They cast lots for my cloths. This is exactly what the soldiers did. (Jn. 19:23-24)."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Words of Our Lord"
+                        android:padding="3dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I have come to bring fire to the earth, and how I wish it were blazing already! there is a baptism I must still receive, and how great is my distress till it is over!(Lk. 12:49-50)."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let us pray"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lord, by the suffering of Christ your Son you have saved us all from the death we inherited from sinful Adam. By the law of nature we have borne the likeness of his manhood.May the sanctifying power of grace help us to put on the likeness of our Lord in heaven. We ask this through the same Christ our Lord. Amen."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. Have mercy on us, O Lord"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Have mercy on us!"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hymn"
+                        android:padding="3dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Holy Mother, pierce me through."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In my heart each wound renew"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Of my saviour crucified"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Eleventh Station"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JESUS IS NAILED TO THE CROSS"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. We adore you, O Christ, and we bless you"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Because by your holy cross you have redeemed the work."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="From the Gospel of St. John"
+                        android:padding="3dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="There they crucified him with who others, one on either side with Jesus in the middle. Pilate wrote out a notice and had it fixed to the cross; it ran; Jesus the Nazarene, king of the Jews. (Jn. 19:18-20)."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Words of Our Lord"
+                        android:padding="3dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="When you have lifted up the Son of Man, then you will know that I am he and that I do nothing of myself, what the Father has taught me is what I preach. Now sentence is being passed on this world; now the prince of this world is to be overthrown. And when I am lifted up from the earth, I shall draw all men to myself. (Jn. 8:28; 12:31-32)."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let us pray"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="By your will, Lord God, your Son underwent the agony of the cross to break the power of Satan over man. Give your people grace to rise again with Christ. We ask this through the same Christ our Lord. Amen."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. Have mercy on us, O Lord"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Have mercy on us!"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hymn"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let me share with thee his pain"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Who for all my sins was slain,"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Who for me in torments died."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+
+
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Twelfth Station"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JESUS DIES ON THE CROSS"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. We adore you, O Christ, and we bless you"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Because by your holy cross you have redeemed the world"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="From the Gospel of St. John"
+                        android:padding="3dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jesus knew that everything had now been completed, and to fulfil the scripture perfectly he said:I am thirsty. A jar full of vinegar stood there, so putting a sponge soaked in vinegar on a hyssop stick they held it up to his mouth. After Jesus had taken the vinegar he said,It is accomplished and bowing his head he gave up his spirit. (Jn. 19:28-30)"
+                        android:padding="3dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Words of Our Lord"
+                        android:padding="3dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Father, the hour had come: glorify your Son so that your Son may glorify you. I have glorified you on earth and finished the work that you gave me to do Now, Father, it is time for you to glorify me with that glory I had with you before the world was.(Jn. 17:1:4-6)"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let us pray"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Father of mercy, in your great love for us you have given us your only Son. May he take us up into his own perfect sacrifice, that we may offer you fitting worship. We ask this through Christ our Lord. Amen."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. Have mercy on us, O Lord"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Have mercy on us!"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hymn"
+                        android:layout_marginTop="10dp"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let me mingle tears with thee,"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mourning him who mourned for me."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="All the days that may live."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Thirteenth Station"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JESUS IS TAKEN DOWN FROM THE CROSS"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. We adore you, O Christ, and we bless you"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Because by your holy cross you have redeemed the world."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="From the Gospel of St. John"
+                        android:padding="3dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="After this, Joseph of Arimathea, who was a disciple of Jesus though a secret one because he was afraid of the Jews  asked Pilate to let him remove the body of Jesus. Pilate gave permission, so they came and took it away, Nicodemus came as well- the same one who had first come to Jesus at night-time and he brought a mixture or myrrh and aloes, weighing about a hundred pounds. (Jn. 1:9:38-39)"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Words of Our Lord"
+                        android:padding="3dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I pray for them, I am not praying for the world but for those you have given me, because they belong to you: all I have is yours, and all you have is mine and in them I am glorified, I am not in the world any longer, but they are in the world, and I am coming to you. Holy Father, keep those you have given me true to your name, so that they may be one like us. (Jn. 17:911)"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let us pray"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Father, as your Son was raised on the cross, his mother Mary stood by him, sharing his sufferings. May your church be united with Christ in his sufferings and death and so come to share in his rising to new life, we ask this through the same Christ our Lord. Amen."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. Have mercy on us, O Lord"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Have mercy on us!"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hymn"
+                        android:layout_marginTop="10dp"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="By the cross with thee to stay,"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="There with thee to weep and pray"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Is all I ask of thee to give."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fourteenth Station"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JESUS IS PLACED IN THE SEPULCHRE"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. We adore you, O Christ, and we bless you"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Because by your holy cross you have redeemed the world."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="From the Gospel of St John"
+                        android:padding="3dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="They took the body of Jesus and wrapped it with the spices in linen cloths, following the Jewish burial custom. At the place where he had been crucified there was a garden, and in this garden a new tomb in which no one had yet been buried. Since it was the Jewish Day of preparation and the tomb was near at hand, they laid Jesus there. (Jn. 19:40-42)"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Words of Our Lord"
+                        android:padding="3dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I pray not only for these, but for those also who through their words will believe in me. May they all be one. Father, may they be one in us, as you are in me and I am in you, so that the world may believe it was you who sent me.(Jn. 17:20-21)"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let us pray"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lord God, the creation of man was a wonderful work his redemption still more wonderful. May we persevere in right reason against al that entices to sin and so attain to everlasting joy. We ask this through Christ our Lord. Amen."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. Have mercy on us, O Lord"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R. Have mercy on us!"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hymn"
+                        android:layout_marginTop="10dp"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="While my body here decays."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="May my soul thy goodness praise."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Safe in paradise with thee. Amen."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Closing prayer"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="For the intention of the Holy Father, let us pray"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Our Father who art in heaven, hallowed be thy name. Thy kingdom come. Thy will be done on earth as it is in heaven. Give us this day our daily bread, and forgive us our trespasses, as we forgive those who trespasses against us. And lead us not into temptation, but deliver us from evil. Amen."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hail Mary, full of grace the Lord is with thee: blessed art thou among women, and blessed is the fruit of thy womb, Jesus, Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Glory be to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let us pray"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="lmighty and eternal God, you have restored us to life by the triumphant death and resurrection of Christ. Continue this healing work within us. May we who participate in this mystery never cease to serve you. This we ask through Christ our Lord. Amen."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

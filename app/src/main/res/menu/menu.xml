@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pidgin"
+        android:title="Pidgin"/>
+
+    <item
+        android:id="@+id/igbo"
+        android:title="Igbo"/>
+    <item
+        android:id="@+id/hausa"
+        android:title="Hausa"/>
+    <item
+        android:id="@+id/Yoruba"
+        android:title="Yoruba"/>
+
+    <item
+        android:id="@+id/Edo"
+        android:title="Edo"/>
+
+    <item
+        android:id="@+id/testing"
+        android:title="Home"/>
+
+
+
+</menu>

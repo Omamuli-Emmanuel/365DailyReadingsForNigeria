@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#212F3D"
+    android:padding="8dp"
+    android:layout_height="match_parent"
+    tools:context=".prayerEleven">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addprayerelven"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarprayereleven"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Prayer for the Faithful Departed"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="PRAYER FOR THE FAITHFUL DEPARTED"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Out of the depth I cry to you O Lord,
+Lord, hear my voice!
+O let your ears be attentive
+to the voice of my pleading.
+If you , O Lord, should mark our guilt,
+Lord, who would survive?
+But with you is found forgiveness:
+for this we revere you.
+My soul is waiting for the Lord,
+I count on His word.
+My soul is longing for the Lord
+more than watchman for daybreak
+let the watchman count on daybreak
+and Israel on the Lord.
+Because with the Lord thee is mercy
+and fullness of redemption,
+Israel indeed He will redeem
+from all its iniguity."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. Eternal rest grant to them, O Lord"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" And let perpetual light shine upon them."
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V. May they rest in peace."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+
+                        />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Amen."
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let Us Pray"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="O God, the creator and Redeemer of all the faithful, grant to the souls of your servants departed the remission of all their sins, that through our pious supplication they may obtain that pardon which they have always desired; who live and reign forever and ever. Amen."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+
+                        />
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

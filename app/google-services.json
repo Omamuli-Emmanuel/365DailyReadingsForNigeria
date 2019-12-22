@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "397760669324",
+    "firebase_url": "https://catholic-missal.firebaseio.com",
+    "project_id": "catholic-missal",
+    "storage_bucket": "catholic-missal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397760669324:android:57bff2b0ef0d5258",
+        "android_client_info": {
+          "package_name": "ng.com.hybridintegrated.a365dailyreadingsfornigeria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397760669324-5u2ufft8f52hasgjfn29i5kiqhbr1i5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa7-3BzaVDrjOsg0wdPZzWcEeJYuZYKGw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

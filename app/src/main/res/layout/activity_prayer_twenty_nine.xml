@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#212F3D"
+    android:padding="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prayerTwentyNine">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addprayertwentynine"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarprayertwentynine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Prayer For Faith And Deliverance"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:textColor="#ff0000"
+                        android:text="This prayers empower you, open the windows of opportunities for you and protect from the wicked men and demons"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:textColor="#ff0000"
+                        android:text="(Prayer for personal devotion)"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="#ff0000"
+                        android:text="This prayer is to be said as often as possible (Morning, afternoon, evening and night) and possible with fasting. In Mathew 17:20 and 21 Jesus admonished us that with faith we can do a lot and with prayer and fasting we can overcome demons."
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I stand on the authority of the word of God in Isaiah 54:17 and declare no weapon fashioned against me shall prosper, and every tongue that rises against me in judgment shall be condemned, I am established in righteousness, and no one can oppress me anymore. The weapons of my warfare are not carnal but mighty through God. I take the shield of faith, and I stop every fiery arrow of the enemy (Eph. 6:16) I take the sword of the spirit, which is the word of God, and use it against you powers of darkness attacking me and my family in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I stand against all evil in my life with truth as belt tight round my waist, and righteousness as my breastplate. My feet are secure with the gospel of peace. I take the shield of faith. I am covered with the helmet of salvation, and I use the sword of the spirit, which is the word of God against you enemies of my soul in the mighty name of Jesus the risen Lord, by the authority in the word of God I decree today that I am redeemed from all curses, from poverty and sickness and I am redeemed from spiritual death."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I overcome all my adversaries because greater is he that is in me than he that is in the world, I am delivered from the power of darkness and translated into the kingdom of God (Col. 1:13)."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I tread upon serpents and scorpions and over all the power of the enemy, and nothing shall hurt me in Jesus name. (Luke 10:19)"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Place your palm on your chest as you make this declaration and please believe"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I am blessed with all spiritual blessings in heavenly places in Christ Jesus,
+I do not have the spirit of fear but power, and love, and a sound mind,
+I am healed by the stripes of Jesus (Isa. 53:5)"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="According to the word of God in job 22:28, I shall decree a thing, and it shall be established in my life."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Goodness and mercy shall follow me all the days of my life for God has anointed my head with oil make the sign of the cross and my cup runneth over. By the reason of this anointing, I possess the power to heal and to cast out devils."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I receive abundance of grace and the gift of righteousness through Christ Jesus, and the Blood of Jesus cleanses me from all sin."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I am the righteousness of God in Christ, the head not the tail, Wealth and riches are in my house, and my righteousness endures forever, in the name of Jesus (Ps. 112:3)."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Lord shall satisfied me with long life, show me his salvation as I dwell in the secret place of the Most High and abide under the shadow of His mighty power. Therefore, no evil will befall me, and no plague shall come near my dwelling. I am strengthened with might by his spirit and I overcome evil with good in the mighty name of Jesus. Amen."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

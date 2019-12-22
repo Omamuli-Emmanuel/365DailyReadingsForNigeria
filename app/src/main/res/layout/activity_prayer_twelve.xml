@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prayerTwelve"
+    android:background="#212F3D"
+    android:padding="8dp">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addprayertwelve"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarprayertwelve"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Prayer of self-surrender to God"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="Prayer of self-surrender to God"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dear Lord, I thank you for this day..., I thank you for my being able to see and hear this morning. I am blessed because you are a forgiving and an understanding God"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="You have done so much for me and kept on blessing me. Grant me the grace Father not to offend you or my neighbour today. When the enemy of my soul comes to seduce me to sin against you please help me to run to your Son Jesus"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text= "Please keep me safe from all dangers and harm. Help me to start this day with a new attitude and plenty of gratitude. Let me make the best of this day with a clear mind, so that I can hear from you. Please broaden my mind that I can accept all things. Let me not whine and whimper over things that I have no control over. Moreover, this is the best response when I am pushed beyond my limits. I know that when I cannot pray, you listen to my heart. Continue to use me O'Lord to do your will. Please Lord continue to use me that I may be a blessing to others especially those who are hurt and do not have any person to help them. Keep me strong that I may help the weak... keep me uplifted that I may have words of encouragement for others."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I pray Father for those that are lost and cannot find their way. I pray Father for those who are misjudged and misunderstood. I pray for those who do not know you intimately. God changes people and changes things. I pray for all my sisters and brothers, for each family member in their households. I pray for peace, love and joy in their homes that they are not of debt and all their needs met, in Jesus name Amen. I pray that every human creature of yours would know that there is no circumstance, or situation greater than you O'God. Every battle is in your hands for you to fight and so I will not be afraid. O'Lord I surrender my whole being to you today. Use me to glorify your name today in Jesus name. Amen."
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

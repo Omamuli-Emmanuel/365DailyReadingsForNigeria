@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#212F3D"
+    android:padding="8dp"
+    android:layout_height="match_parent"
+    tools:context=".prayerTen">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addprayerten"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarprayerten"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Prayer Before Mass"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Prayer before Mass"
+                        android:textColor="#FF0000 "
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="O God, to whom every heart is open, every desire known and from whom no secrets are hidden; purify the thoughts of our hearts by the inspiration of your Holy Spirit, that we may perfectly love you, and worthily praise your holy name. Amen."
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Prayers for Holy Communion"
+                        android:textColor="#FF0000 "
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Say these prayers slowly, a few words at a time. It is well to stop after every few words, that they may sink into the heart. Each Prayer may be said several times."
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Acts of Spiritual Communion"
+                        android:textColor="#FF0000 "
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="My Jesus, I believe that you are present in the Most Holy Sacrament. I love you above all things, and I desire to receive you into my soul. Since I cannot at this moment receive you sacramentally, come at least spiritually into my heart. I embrace you as being already there and unite myself wholly to you. Never permit me to be separated from you. Amen."
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Prayer before Confession"
+                        android:textColor="#FF0000 "
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Almighty and merciful God,"
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="you have brought me here in the name of your Son"
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="to receive your mercy and grace in my time of need."
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Open my eyes to see the evil I have done."
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="Touch my heart and convert me to yourself."
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Where sin has separated me from you,"
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="may your love unite me to you again:"
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="italic"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="where sin has brought weakness,"
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="May your power heal and strengthen;"
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="italic"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Where sin has brought death,"
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="may your Spirit raise to new life."
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="italic"
+                        />
+
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Give me a new heart to love you,"
+                    android:textColor="#000"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="so that my life may reflect the image of your Son."
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="italic"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="May the world see the glory"
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="of Christ revealed in your Church,"
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="italic"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="and come to know that he is the one whom"
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="you have sent, Jesus Christ, your Son, our Lord."
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="italic"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Amen."
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="italic"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Prayer for Help"
+                        android:textColor="#FF0000 "
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="O my God, help me to make a good communion. Mary, my dearest mother, pray to Jesus for me. My dear Angel Guardian, lead me to the Altar of God."
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Act of Faith"
+                        android:textColor="#FF0000 "
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="O God, because thou hast said it, I believe that I shall receive the Sacred Body of Jesus Christ to eat, and his precious Blood to drink. My God, I believe this with all my heart."
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Act of Humility"
+                        android:textColor="#FF0000 "
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="My God, I confess that I am a poor sinner; I am not worthy to receive the Body and Blood of Jesus on account of my sins. Lord, I am not worthy to receive you under my roof; but only say the word, and my soul will be healed."
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Act of sorrow"
+                        android:textColor="#FF0000 "
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="My God, I detest all the sins of my life. I am sorry for them, because they have offended you, my God who are so good. I resolve never to commit sin any more. My good God, pity me, have mercy on me, forgive me. Amen."
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Act of adoration"
+                        android:textColor="#FF0000 "
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="O Jesus, great God, present on the Altar, I bow down before you. I adore you."
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Act of Love and Desire"
+                        android:textColor="#FF0000 "
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jesus, I love you. I desire with all my heart to receive you. Jesus, come into my poor soul, and give me your flesh to eat and your Blood to drink. Give me your whole self, Body, Blood, Soul, and Divinity, that I may live for ever with you."
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            app:cardCornerRadius="8dp"
+            android:background="#fff"
+            android:layout_marginBottom="2dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Prayer after Holy Communion by St Thomas Aquinas"
+                    android:textColor="#FF0000 "
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I give you thanks, Lord, Holy Father, everlasting God. In your great mercy, and not because of my own merits, you have fed me a sinner and your unworthy servant, with the precious body and blood of your Son, our Lord Jesus Christ. I pray that this Holy Communion may not serve as my judgement and condemnation, but as my forgiveness and salvation. May it be my armour of faith and shield of good purpose, root out In me all that is evil and increase every virtue. I beseech you to bring me a sinner, to that great feast where, with your Son and the Holy Spirit you are the true light of your Son and the Holy Spirit you are the true light of your holy ones, their flawless blessedness, everlasting joy and perfect happiness. Through Christ our Lord. Amen."
+                    android:textColor="#000"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Prayer of St Thomas Aquinas"
+                        android:textColor="#FF0000 "
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Almighty and ever-living God, I approach the sacrament of your only-begotten Son our Lord Jesus Christ. I come sick to the doctor of life, unclean to the fountain of mercy, blind to the radiance of eternal light, and poor and needy to the Lord of heaven and earth. Lord, in your great generosity, heal my sickness, wash away my defilement, enlighten my blindness, enrich my poverty, and clothe my nakedness. May I receive the bread of angels, the king of kings and Lord of Lords, with humble reverence, with the purity and faith, the repentance and love, and the determined purpose that will help to bring me to salvation. Ay I receive the sacrament of the Lord's Body and Blood, and its reality and power. Kind God, may I receive the Body of your only begotten Son, Our Lord Jesus Christ, born rom the womb of the Virgin Mary, and so be received into his mystical body and numbered among his members. Loving Father, as on my earthly pilgrimage I now receive your beloved Son under the veil of a sacrament, may I one day see Him face to face in glory, who lives and reigns with you for ever. Amen."
+                        android:textColor="#000"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,1182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#212F3D"
+    android:padding="8dp"
+    android:layout_height="match_parent"
+    tools:context=".prayerOne">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addconfessionandreconciliation"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarconfessionandreconciliation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Confession / Reconciliation"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textColor="#ff0000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SACRAMENT OF RECONCILIATION"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Remember that the sacrament is above all an act of God's love. It is a personal moment to be lived in a relationship of love with God. It is not routine, nor an ordeal to be gone through, but is very much part of the personal renewal which takes place in each person. You are invited, in the light of God's love, to recognize the sinfulness of your life, to have true sorrow for your sins, and a firm intention to avoid them in future."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Essential elements of a good confession To make a good confession, we should:"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="i. Pray first, asking God to help us."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="ii. Make a sincere examination of conscience to see how we have sinned since our last confession. Confession our sins simply, with humility and honesty."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="iii. Make our act of contrition with heartfelt sorrow and a firm purpose of amendment, being determined that we will avoid the occasions of sin."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="iv. Devoutly carry out the penance prescribed and pray in thanksgiving for God's overflowing love and mercy."/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ff0000"
+                        android:text="The Confiteor"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="I confess to almighty God that I have greatly sinned, in my thoughts and in my words, in what I have done, and in what I have failed to do, through my fault, through my fault, through my most grievous fault; therefore I ask blessed Mary, ever-Virgin, all the angels and saints, to pray for me to the Lord our God."/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="An Act of Contrition"
+                        android:textColor="#ff0000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="O my God, I am sorry and beg pardon for all my sins, and detest them above all things, because they deserve your dreadful punishments, because they have crucified my loving Saviour Jesus Christ, and most of all, because they offend your infinite goodness; and I firmly resolve, by the help of your grace, never to offend you again, and carefully to avoid the occasions of sin."/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Examination of Conscience"
+                        android:textColor="#ff0000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Careful preparation is vital in order to make the most of this encounter with our loving heavenly Father. Find some time to be alone and quiet to reflect on your life, your relationship with God and others. An examination of conscience provides us with what we are going to say in the confessional. Without time given to such examination our confession is in danger of being incomplete. There are many ways: one is to use a gospel passage, especially one of the many healing miracles or occasions of forgiveness (LK 15:11-32; Jn4:5-42; Mt18:21-35; Lk18:9-14).
+"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Imagine you are the person being healed or forgiven by Jesus. Read the scripture passage, imagine you are in the scene, and listen to the words of Jesus. He speaks to you! What do you say? Alternatively, Jesus summed up and extended the Ten Commandments by his two great commandments (Mk12:28-42) Love God and your neighbor."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Mortal sin is sin whose object is a grave matter and which is committed with full knowledge and deliberate consent (Catechism 1857). We must confess all mortal sins. We are not obliged to confess all venial sins."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="We commit venial sin when, in a less serious matter, we do not observe the standard prescribed by the moral law, or when we disobey the moral law in a grave matter, but without full knowledge or without complete consent (Catechism 1862). Confession of venial sins is an act of devotion. We need not be unduly anxious to confess them all, but may rather choose to focus on areas of our life that are most in need of God's grace."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="We commit venial sin when, in a less serious matter, we do not observe the standard prescribed by the moral law, or when we disobey the moral law in a grave matter, but without full knowledge or without complete consent (Catechism 1862). Confession of venial sins is an act of devotion. We need not be unduly anxious to confess them all, but may rather choose to focus on areas of our life that are most in need of God's grace."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="The following examination of conscience can help us to measure our lives by the objectives standard of Christ's teaching. We, may also consider more generally how we may have failed in our lives fully as disciples of Christ:"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="1. Sins against God"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="2. Sins against myself and others"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="3. Sins against Spouses"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="4. Sins against your Parents"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sins against God"
+                        android:textColor="#ff0000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I rejected my faith, refused to find out more about it?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I forgotten my daily prayers or said them badly?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I experimented with the occult or put my trust in fortune tellers or horoscopes?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I blasphemed against god or used bad language?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I shown disrespect for holy things, places or people?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I missed Mass on Sundays or Holy days through my own fault?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I let myself be distracted at Mass or distracted others?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I received Holy Communion in a state of mortal sin?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I received Holy Communion without proper reverence, care or thanksgiving?"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sins Against Myself And Others"
+                        android:textColor="#ff0000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I been impatient, angry or jealous?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I brooded over injuries or refused to forgive?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I taken part in or encouraged abortion, the destruction of human embryos, euthanasia or any other means of taking human life?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I been verbally or physically violent to others?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I been racist in my thoughts, words or deeds?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I hurt anyone by speaking badly about them?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I betrayed confidences without good cause or revealed things simply to hurt others?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I judged others rashly?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I been drunk or used illegal drugs?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I driven dangerously or inconsiderately?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I spoken in an obscene way?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I looked at obscene pictures, films or books?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I been involved in any impure behavior on my own or with someone else?"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I been vain, proud, selfish or self-seeking?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I told lies to excuse myself, to hurt others or to make myself look more important?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I stolen anything?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I failed to contribute to the support of the Church in proportion to my means?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I been disobedient, rude or insolent to those in authority over me?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I been harsh, overbearing or sarcastic to those under my authority?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I cheated my employers or employees?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I misused or damaged the property of others?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I set my heart greedily on possessing things?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I given scandal or dad example?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I been lazy at my work, study or domestic duties?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I been jealous of others of their looks, their popularity, their good work?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I encouraged others to do wrong in any way?"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="For Spouses"
+                        android:textColor="#ff0000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I neglected to foster the warmth of my love and affection for my spouse?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I prolonged disagreements through resentment or failing to apologise when I have been in the wrong?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I used artificial means of birth control?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I been unfaithful to my spouse in any way?"/>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="For Parents"
+                        android:textColor="#ff0000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have i neglected to teach my children to pray?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I neglected the religious education of my children?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I failed to bring my children to Sunday Mass?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I argued with my spouse in front of my children?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I failed to exercise vigilance over what my children read, see on television or on the internet?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I been harsh or overbearing to my children?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I been harsh or overbearing to my children?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I neglected my children's welfare in any way?"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="For young people"
+                        android:textColor="#ff0000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I been disobedient to my parents?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I been unhelpful at home?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I failed to try to understand my parents and talk with them?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have upset the peace of my home for selfish reasons?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I lost control when I have been angry?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I sulked or been sarcastic instead of asking for help?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I failed to work properly at school?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have treated teachers or other adults with disrespect?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I played unfairly at games or sports?"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Have I taken part in fights?"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GOING TO CONFESSION"
+                        android:textSize="18sp"
+                        android:padding="4dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(You may take this prayer app with you to confession)"
+                        android:textSize="14sp"
+                        android:textStyle="italic"
+                        android:padding="4dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Reception"
+                        android:textColor="#ff0000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="The priest welcomes the penitent warmly. The penitent and priest begin by making the sign of the cross, while saying: In the name of the Father, and of the Son, and of the Holy Spirit. Amen. The priest invites you to trust in God. You may indicate your state of life, and anything else which may help the priest as confessor."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="The word of God"
+                            android:textColor="#ff0000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="The priest may invite you to reflect on a passage from the Holy Scripture, speaking of Gods mercy and call to conversion."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Reconciliation"
+                            android:textColor="#ff0000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Then you can speak in your own words or you can say: Bless me father for I have sinned. My last confession was ago (say roughly how long) and these are my sins. Now tell your sins simply in your own words. When you have finished, let the priest know. You can use these words if you wish: I am sorry for all these sins and for any that I cannot now remember."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Listen carefully to the advice of the priest and ask the Holy Spirit to help him to say what is best to help you to grow in the Christian life. You can ask him questions if you want. The priest may propose an Act of Penance, which should serve not only to make up for the past but also to help begin a new life and provide an antidote to weakness. It may take the form of prayers, self-denial, and especially of service to one's neighbor and works of mercy."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#ff0000"
+                            android:text="Then the priest invites you to say a prayer of sorrow (an Act of Contrition), such as:"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="O my God, because you are so good, I am very sorry that I have sinned against you, and by the help of your grace I will not sin again."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Wait while the priest says the prayer of Absolution (where Christ forgives you all your sins). Make the sign of the cross as the priest says: I absolve you from your sins in the name of the Father and the Son and the Holy Spirit. Amen. The priest may say a few final words of encouragement to you as you leave."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="After Confession"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Take some time in the quiet of the Church to reflect on the grace of the sacrament and to thank God for his mercy and forgiveness. Here is a prayer of thanksgiving:"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Father, in your love you have brought me from evil to good and from misery to happiness. Through your blessings give me the courage of perseverance. Amen."/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

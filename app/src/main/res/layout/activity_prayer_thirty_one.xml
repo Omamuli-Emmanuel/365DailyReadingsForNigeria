@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#212F3D"
+    android:padding="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prayerThirtyOne">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addprayerthirtyone"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarprayerthirtyone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Prayer Against Evil Family Pattern"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:textColor="#b22222"
+                        android:text="Prayer Against Evil Family Pattern And Generational Curses"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:textColor="#b22222"
+                        android:text="Prayer of Renunciation concerning the sins of Ancestors."
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="#b22222"
+                        android:text="This prayer should be taken in the morning and evening for three days with fasting (6am - 6pm)"
+                        />
+
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="As a child of God purchased by the Blood of the Lord Jesus Christ, I here and now renounce and repudiate all the sins of my ancestors and other family members. As one who has been delivered from the power of darkness and translated into the kingdom of God's dear Son, I cancel out all curses, spells, and other demonic workings that have been passed on to me from my ancestors or from others. As one who have been crucified with Jesus Christ and raised to walk in newness of life, I cancel every curse, spell, hex or other evil matter that may have been put upon me. I announce to Satan and all his forces that Christ became a curse for me when he hung on the Cross. As one who has been crucified and raised with Christ and now sits with Him in heavenly places, I renounce any and every way in which Satan may claim ownership of me. I declare myself to be eternally and completely signed over and committed to the Lord Jesus Christ. All this I do in the name and by the authority of the Lord Jesus Christ."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In the name of the Lord Jesus Christ of Nazareth, by the power of His Cross, His Blood and his Resurrection, I take authority over all curses, hexes, spells, voodoo practices, witchcraft assignments, satanic rituals, incantations and evil wishes that have been sent my way, or have passed down the generational bloodline. I break their influence over my life by the power of the risen Lord Jesus Christ, and I command these curses to go back to where they came from and be replaced with a blessing. I ask forgiveness for and renounce all negative inner vows and agreements that I have made with the enemy, and I ask that you Lord Jesus Christ release me from my bondage they may have held in me. I claim your shed blood over all aspects of my life, relationships, ministry endeavors and finances. I thank you for your enduring love, your angelic protection, and for the fullness of your abundant blessings."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In the name of the Lord Jesus Christ, I ask, O Lord God, that you break and dissolve any and all curses, hexes, spells, seals, satanic vows and pacts, spiritual bonding's and soul ties with satanic forces, evil wishes, evil desires, hereditary seals, snares, traps, lies, obstacles, deceptions, diversions, spiritual influences, and every dysfunction and disease from any source whatsoever, that have been placed upon me. Father in Heaven, please rebuke these evil spirits and their effects and cast them away from me so that I may continue to do your will and enjoy your blessings. Amen."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lord walk back to the foundation of my life and carry out the necessary surgical operation in the name of Jesus. Amen."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Evil pattern of collective ancestral captivity in my life, be cast out in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Father, I break every evil pattern in my life in the name of Jesus. Lord release me from all family idols from both sides of my parents in Jesus name."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I refused to allow any evil pattern programmed by any of my ancestor in Jesus name. I renounce all hidden soul ties, in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I break every cycle of hardship and decree that divine character be planted and built in me in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Every agent of darkness operating evil covenant in my family line, be cast out by fire in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I break and release myself from every family evil prison holding me down from fulfilling my destiny in Jesus name."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I release myself by force from every ancient and modern curse or pronouncement affecting the lives of people in my family and environmental line in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Holy Ghost Fire, set me free from every evil spirit controlling my family line in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Every power assigned to enforce the repetition of evil occurrences in my family, loose me by God's grace in the name of Jesus."
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I cast out every living and non-living objects used to represent my destiny on the altar of wickedness in my family line in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Every intentional or non-intentional agreement with the devil in my family line, affecting my destiny be scatter and nullified by the Blood of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Holy Ghost Fire chase out every spirit of rejection in my family line operating in my life in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Every spirit of non-achievement in my family line operating in my life be destroyed by fire in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Every spirit of delay (Marital, financial, academic) operating in my family line, be removed in my life in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Every spirit of limitation affecting my destiny from my family line, be loosed from me in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Every spirit of failure at the edge of success in my family line, loose your grip over my life in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Every spirit of untimely death and affliction in my family line, loose your hold of me speedily in the mighty name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Every spirit of condemnation, confusion and conflict destroying destinies in my family line, loose your grip over me in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Every spirit of incomplete, instability and inconsistency in my life that gained entrance into my life via evil family pattern, be removed in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Every tongue rising up against my progress from my family line, be condemned in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Every foundation of sudden and unprepared death be destroyed by fire in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Every foundation of poverty be destroyed by fire in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Every foundation of poverty be destroyed by fire in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Every foundation of delay in marriage, child birth and drunkenness be destroyed by fire in the name of Jesus."
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Every foundation of madness, wickedness, idolatry be destroyed by fire in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Thank the Lord for his redemptive power which neither fails nor diminishes."
+                        android:textColor="#b22222"
+                        android:textStyle="italic"
+                        android:padding="3dp"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

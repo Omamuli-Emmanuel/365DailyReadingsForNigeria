@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Appreciation"
+    android:background="#fff">
+
+
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banid"
+            android:id="@+id/appadd"
+            android:layout_height="wrap_content"
+            android:layout_width="360dp"
+            >
+
+        </com.google.android.gms.ads.AdView>
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarapp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#212F3D"
+            app:title="Appreciation"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark"
+            app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+            app:titleTextColor="#ffffff">
+        </android.support.v7.widget.Toolbar>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:src="@drawable/app"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All gratitude and praise goes to God Almighty"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:layout_gravity="center"
+            android:textSize="14sp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Special thanks to His Grace: "
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="8dp"
+            android:textSize="14sp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" + Augustine Akubeze Obiora. "
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginLeft="9dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Archbishop of Benin City Archdiocese."
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="#ff0000"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thanks to."
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fr. Raymond Ikpomwonba | Fr. Edwin Omorogbe |"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:padding="3dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginLeft="14dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fr. Evaristus Abu, Fr. Victor Ekanem | Fr. Augustine"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:padding="3dp"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:layout_marginLeft="11dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eleke| Fr. James Ogbeiwe | Fr. John Adesutu"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:padding="3dp"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Robinson Atabuh Olukemi"
+            android:padding="3dp"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mrecyapp">
+
+        </android.support.v7.widget.RecyclerView>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

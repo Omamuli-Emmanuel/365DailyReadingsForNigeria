@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#212F3D"
+    android:padding="8dp"
+    android:layout_height="match_parent"
+    tools:context=".prayerRequest">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addprayerrequestnext"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarprayerrequestnext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="365 Prayer Channel"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#fff"
+                android:layout_marginTop="2dp"
+                app:cardCornerRadius="8dp"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:layout_height="match_parent">
+
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:padding="8dp"
+                        android:src="@drawable/pray"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="#000000"
+                        android:padding="10dp"
+                        android:text="The purpose of our Prayer Request is to join users, their family members and friends in prayers, in accordance with God's dictates in Galatians 6:2, and Ecclesiastes 4:9-12. Two are better than One......."
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Let Us Join you in prayers. You can now send your Prayer Request to the 365 Prayer Team. Keep your request civil and direct "
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In prayers of petition we ask God with all our heart for help and we trust God's will be done."
+                        android:textColor="#ff0000"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:layout_height="wrap_content"
+                        android:text="Your prayers will be included in the daily prayers of our members.(No stipend necessary).
+You may continue to request prayers for prolonged circumstance."
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:padding="10dp"
+                        android:text="We only ask that you keep your requests simple, brief and easy to understand and that you use good manners when communicating with us. All prayers are kept confidential to our Prayer Warriors."
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textColor="#000"
+                        android:text="For Prayer Request Please send:"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="5dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="1. Your Name"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="5dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="2. Your Church and Location"
+                        android:gravity="center"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="1dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="(For example St. Paul parish, Owerri)"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="5dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="3. Circumstance you wish us to join you to pray for."
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="5dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="SMS Only 09093628639"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="5dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="WhatsApp Only 07030222627"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="5dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="Email: 365prayer.request@gmail.com"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        android:layout_height="wrap_content"
+                        android:text="Feel free to send us back a Prayers Answered message upon resolution of the request, if appropriate."
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="5dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="We thank God for thousands of requests we receive from you daily and those we are able to respond to.."
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="5dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="Nothings is too difficult for God, cast all your burdens on Him and He will give you rest, believe and have faith and you will be saved. May God bless you and grant you all your heart desires in Jesus name. Amen"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

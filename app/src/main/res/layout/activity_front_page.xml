@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#212F3D"
+    android:padding="8dp"
+    android:layout_height="match_parent"
+    tools:context=".FrontPage">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addfrontpage"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarfrontpage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="365dailyreadings"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+   <android.support.v7.widget.CardView
+       android:layout_width="match_parent"
+       android:background="#fff"
+       app:cardCornerRadius="8dp"
+       android:layout_centerHorizontal="true"
+       android:layout_height="wrap_content">
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+           android:padding="30dp"
+           android:layout_height="match_parent">
+
+           <android.support.v7.widget.CardView
+               android:layout_width="wrap_content"
+               android:layout_gravity="center"
+               app:cardCornerRadius="10dp"
+               android:layout_marginBottom="30dp"
+               android:layout_height="wrap_content">
+           <ImageView
+               android:layout_width="80dp"
+               android:layout_height="80dp"
+               android:src="@drawable/logo"
+               />
+           </android.support.v7.widget.CardView>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:orientation="horizontal"
+               android:padding="5dp"
+               android:id="@+id/dailrd"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:layout_marginRight="15dp"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:src="@drawable/read"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:textSize="14dp"
+                   android:textStyle="bold"
+                   android:textColor="#000"
+                   android:text="365 Daily Readings"
+                   />
+
+           </LinearLayout>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:background="#D5D5D4"
+               android:layout_height="2dp" />
+
+           <LinearLayout
+               android:id="@+id/confRec"
+               android:layout_width="match_parent"
+               android:orientation="horizontal"
+               android:padding="5dp"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:layout_marginRight="15dp"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:src="@drawable/recon"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:textSize="14dp"
+                   android:textStyle="bold"
+                   android:textColor="#000"
+                   android:text="Confession / Reconciliation"
+                   />
+
+           </LinearLayout>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:background="#D5D5D4"
+               android:layout_height="2dp" />
+
+           <LinearLayout
+               android:id="@+id/churchPrayers"
+               android:layout_width="match_parent"
+               android:orientation="horizontal"
+               android:padding="5dp"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:layout_marginRight="15dp"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:src="@drawable/pray"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:textSize="14dp"
+                   android:textStyle="bold"
+                   android:textColor="#000"
+                   android:text="Church Prayers"
+                   />
+
+
+           </LinearLayout>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:background="#D5D5D4"
+               android:layout_height="2dp" />
+
+           <LinearLayout
+               android:id="@+id/languages"
+               android:layout_width="match_parent"
+               android:orientation="horizontal"
+               android:padding="5dp"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:layout_marginRight="15dp"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:src="@drawable/local"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:textSize="14dp"
+                   android:textStyle="bold"
+                   android:textColor="#000"
+                   android:text="Local Languages"
+                   />
+
+
+           </LinearLayout>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:background="#D5D5D4"
+               android:layout_height="2dp" />
+
+
+           <LinearLayout
+               android:id="@+id/rosary"
+               android:layout_width="match_parent"
+               android:orientation="horizontal"
+               android:padding="5dp"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:layout_marginRight="15dp"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:src="@drawable/rosary"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:textSize="14dp"
+                   android:textColor="#000"
+                   android:textStyle="bold"
+                   android:text="Holy Rosary"
+                   />
+
+           </LinearLayout>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:background="#D5D5D4"
+               android:layout_height="2dp" />
+
+           <LinearLayout
+               android:id="@+id/audioDev"
+               android:layout_width="match_parent"
+               android:orientation="horizontal"
+               android:padding="5dp"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:layout_marginRight="15dp"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:src="@drawable/audio"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:textSize="14dp"
+                   android:textColor="#000"
+                   android:textStyle="bold"
+                   android:text="Audio Devotional"
+                   />
+
+           </LinearLayout>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:background="#D5D5D4"
+               android:layout_height="2dp" />
+
+           <LinearLayout
+               android:id="@+id/novena"
+               android:layout_width="match_parent"
+               android:orientation="horizontal"
+               android:padding="5dp"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:layout_marginRight="15dp"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:src="@drawable/wheel"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:textSize="14dp"
+                   android:textColor="#000"
+                   android:textStyle="bold"
+                   android:text="Novena"
+                   />
+
+           </LinearLayout>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:background="#D5D5D4"
+               android:layout_height="2dp" />
+
+           <LinearLayout
+               android:id="@+id/stationOfCross"
+               android:layout_width="match_parent"
+               android:orientation="horizontal"
+               android:padding="5dp"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:layout_marginRight="15dp"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:src="@drawable/cross"
+                   />
+               <TextView
+
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:textSize="14dp"
+                   android:textStyle="bold"
+                   android:textColor="#000"
+                   android:text="Stations of the Cross"
+                   />
+
+           </LinearLayout>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:background="#D5D5D4"
+               android:layout_height="2dp" />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:orientation="horizontal"
+               android:padding="5dp"
+               android:id="@+id/catholicdoc"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_marginRight="15dp"
+                   android:src="@drawable/bible" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:textStyle="bold"
+                   android:textSize="14dp"
+                   android:textColor="#000"
+                   android:text="Catholic Doctrine"
+                   />
+
+           </LinearLayout>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:background="#D5D5D4"
+               android:layout_height="2dp" />
+
+           <LinearLayout
+               android:id="@+id/request"
+               android:layout_width="match_parent"
+               android:orientation="horizontal"
+               android:padding="5dp"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:layout_marginRight="15dp"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:src="@drawable/write"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:textSize="14dp"
+                   android:textStyle="bold"
+                   android:textColor="#000"
+                   android:text="Prayer Request"
+                   />
+
+           </LinearLayout>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:background="#D5D5D4"
+               android:layout_height="2dp" />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:orientation="horizontal"
+               android:padding="5dp"
+               android:id="@+id/bulletin"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:layout_marginRight="15dp"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:src="@drawable/bulletin"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:textSize="14dp"
+                   android:textStyle="bold"
+                   android:textColor="#000"
+                   android:text="MyNews Bulletin"
+                   />
+
+           </LinearLayout>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:background="#D5D5D4"
+               android:layout_height="2dp" />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:id="@+id/appreciation"
+               android:orientation="horizontal"
+               android:padding="5dp"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:layout_marginRight="15dp"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:src="@drawable/badge"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:textSize="14dp"
+                   android:textStyle="bold"
+                   android:textColor="#000"
+                   android:text="Appreciation"
+                   />
+
+           </LinearLayout>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:background="#D5D5D4"
+               android:layout_height="2dp" />
+       </LinearLayout>
+   </android.support.v7.widget.CardView>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#212F3D"
+    android:padding="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prayerTwentyFour">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addprayertwentyfour"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarprayertwentyfour"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Healing Your Family Linage"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Heavenly Father, I come before you as your child, in great need of your help. I have physical health needs, emotional needs, spiritual needs and interpersonal needs. Many of my problems have been caused by my own failures, neglect and sinfulness, for which I humbly beg your forgiveness. I also ask you to forgive the sins of my ancestors whose failures may have left their effects on me in the form of unwanted tendencies, negative behavior patterns and a predisposition toward sin. Heal me, Lord, of all these disorders."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="With your help I sincerely forgive everyone, living or dead members of my family lineage, who have directly offended me or my loved ones in any way, or those whose sins have resulted in our present sufferings and disorders. In the name of your divine Son Jesus, by the power of the Holy Spirit, I ask you Father, to deliver me and my entire family lineage from the influence of evil."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Free all members of my family tree, including those in adoptive relationships, and those in extended family relationships, from every contaminating form of bondage. By your loving concern for us, heavenly Father, and by the shed blood of your precious Son Jesus, I beg you to extend your blessing to me and all my living and deceased relatives. Heal every negative effect transmitted through all past generations, and prevent such negative effects in all future generations."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I symbolically place the Cross of Christ over the head of every person in my family lineage and I ask you to let the cleansing Blood of Jesus purify every aspect of my family. Send protective angels to encamp around us and administer to us your divine healing power, even in areas of genetic disability. Give special power to our family members; guardian angels to heal, protect, guide and encourage each of us in all our needs. Let your healing power be released at this very moment, and let it continue as long as your sovereignty permits."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Replace all bondage in our family lineage with a bonding of holy family love. May there be an ever-deeper bonding with you, Heavenly Father, through the power of your Holy Spirit, to your Son, Jesus Christ. Let the family of the Holy Trinity pervade our family with its tender, warm, loving presence so that our family may recognize and manifest that love in all our relationships; in Jesus; precious name I pray. Amen."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

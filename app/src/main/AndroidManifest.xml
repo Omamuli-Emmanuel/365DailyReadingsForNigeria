@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ng.com.hybridintegrated.a365dailyreadingsfornigeria">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name=".Application_subclass.FirebaseHandler"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".audioDevotional" />
+        <activity android:name=".pidginPray" />
+        <activity android:name=".pidginLangg" />
+        <activity android:name=".newIgbo" />
+        <activity android:name=".yorubaPray" />
+        <activity android:name=".yoruba" />
+        <activity android:name=".igboPray" />
+        <activity android:name=".hausaPray" />
+        <activity android:name=".hausa" />
+        <activity android:name=".edoPray" />
+        <activity android:name=".edo" />
+        <activity android:name=".languages" />
+
+        <service android:name=".firebasemessagingservices">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION-ID"
+            android:value="@string/admobid" />
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".FrontPage" />
+
+        <activity android:name=".FrontPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".churchPrayers"
+            android:label="Church Prayers" />
+        <activity
+            android:name=".holyRosary"
+            android:label="Holy Rosary" />
+        <activity
+            android:name=".prayerRequest"
+            android:label="Prayer Request" />
+        <activity
+            android:name=".stationOfTheCross"
+            android:label="Station of The Cross" />
+        <activity
+            android:name=".novena"
+            android:label="Novena" />
+        <activity
+            android:name=".prayerOne"
+            android:label="Basic Prayers" />
+        <activity
+            android:name=".prayerTwo"
+            android:label="Daily Prayers" />
+        <activity
+            android:name=".prayerThree"
+            android:label="Divine Praises" />
+        <activity
+            android:name=".prayerFour"
+            android:label="For Successful Examination" />
+        <activity
+            android:name=".prayerFive"
+            android:label="Litany of the Blessed Virgin Mary" />
+        <activity
+            android:name=".prayerSix"
+            android:label="Litany of the Holy Spirit" />
+        <activity
+            android:name=".prayerSeven"
+            android:label="Litany of the Saints" />
+        <activity
+            android:name=".prayerEight"
+            android:label="Prayer Against Sexual Sin" />
+        <activity
+            android:name=".prayerNine"
+            android:label="Prayer Before A Crucifix" />
+        <activity
+            android:name=".prayerTen"
+            android:label="Prayer Before Mass" />
+        <activity
+            android:name=".prayerEleven"
+            android:label="Prayer for the Faithful Departed" />
+        <activity
+            android:name=".prayerTwelve"
+            android:label="Prayer of self-surrender to God" />
+        <activity
+            android:name=".prayerThirteen"
+            android:label="Prayer Of Trust In The Divine Mercy" />
+        <activity
+            android:name=".prayerFourteen"
+            android:label="Prayer Of The Saints" />
+        <activity
+            android:name=".prayerFifteen"
+            android:label="Prayers to Our Lady Mary" />
+        <activity
+            android:name=".prayerSixteen"
+            android:label="Prayer To The Holy Spirit" />
+        <activity
+            android:name=".prayerSeventeen"
+            android:label="Prayer while visiting the Blessed Sacrament" />
+        <activity
+            android:name=".prayerEighteen"
+            android:label="Prayer Of Confirmation And Trust In God" />
+        <activity
+            android:name=".prayerNineteen"
+            android:label="Prayer in Sickness and Health Challenges" />
+        <activity
+            android:name=".prayerTwenty"
+            android:label="Prayers For All Seeking Life Partners" />
+        <activity
+            android:name=".prayerTwentyOne"
+            android:label="Prayer Against Bareness And Infertility" />
+        <activity
+            android:name=".prayerTwentyTwo"
+            android:label="Healing Prayer" />
+        <activity
+            android:name=".prayerTwentyThree"
+            android:label="Ancestral Healing Prayer" />
+        <activity
+            android:name=".prayerTwentyFour"
+            android:label="Healing Your Family Linage" />
+        <activity
+            android:name=".prayerTwentyFive"
+            android:label="Prayer For Examination / Academic Success" />
+        <activity
+            android:name=".prayerTwentySix"
+            android:label="Personal Night-time Prayer" />
+        <activity
+            android:name=".prayerTwentySeven"
+            android:label="Prayer For God&apos;s Help" />
+        <activity
+            android:name=".prayerTwentyEight"
+            android:label="Prayer For Your Children" />
+        <activity
+            android:name=".prayerTwentyNine"
+            android:label="Prayer For Faith And Deliverance" />
+        <activity
+            android:name=".prayerThirty"
+            android:label="Removing Personal Demonic Influence" />
+        <activity
+            android:name=".prayerThirtyOne"
+            android:label="Prayer Against Evil Family Pattern" />
+        <activity
+            android:name=".prayerThirtyTwo"
+            android:label="Prayer For Financial Blessings" />
+        <activity
+            android:name=".prayerThirtyThree"
+            android:label="Prayer For God&apos;s Trust " />
+        <activity
+            android:name=".prayerThirtyFour"
+            android:label="Renunciation of Satan" />
+        <activity
+            android:name=".prayerThirtyFive"
+            android:label="Prayer For Divine Protection" />
+        <activity
+            android:name=".prayerThirtySix"
+            android:label="Prayer For Nigeria In Distress" />
+        <activity
+            android:name=".prayerRequestNext"
+            android:label="365 Prayer Channel" />
+        <activity
+            android:name=".novenaIntro"
+            android:label="Novena Introduction" />
+        <activity
+            android:name=".novenaList"
+            android:label="3 Minutes Novena" />
+        <activity
+            android:name=".novOne"
+            android:label="3 Minutes Novena Day One" />
+        <activity
+            android:name=".novTwo"
+            android:label="3 Minutes Novena Day Two" />
+        <activity
+            android:name=".novThree"
+            android:label="3 Minutes Novena Day Three" />
+        <activity
+            android:name=".novFour"
+            android:label="3 Minutes Novena Day Four" />
+        <activity
+            android:name=".novFive"
+            android:label="3 Minutes Novena Day Five" />
+        <activity
+            android:name=".novSix"
+            android:label="3 Minutes Novena Day Six" />
+        <activity
+            android:name=".novSeven"
+            android:label="3 Minutes Novena Day Seven" />
+        <activity
+            android:name=".novEight"
+            android:label="3 Minutes Novena Day Eight" />
+        <activity
+            android:name=".novNine"
+            android:label="3 Minutes Novena Day Nine" />
+        <activity
+            android:name=".pentNovList"
+            android:label="Pentecost Novena" />
+        <activity
+            android:name=".pentIntro"
+            android:label="Introduction" />
+        <activity
+            android:name=".pentDayOne"
+            android:label="Pentecost Novena Day One" />
+        <activity
+            android:name=".pentDayTwo"
+            android:label="Pentecost Novena Day Two" />
+        <activity
+            android:name=".pentDayThree"
+            android:label="Pentecost Novena Day Three" />
+        <activity
+            android:name=".pentDayFour"
+            android:label="Pentecost Novena Day Four" />
+        <activity
+            android:name=".pentDayFive"
+            android:label="Pentecost Novena Day Five" />
+        <activity
+            android:name=".pentDaySix"
+            android:label="Pentecost Novena Day Six" />
+        <activity
+            android:name=".pentDaySeven"
+            android:label="Pentecost Novena Day Seven" />
+        <activity
+            android:name=".pentDayEight"
+            android:label="Pentecost Novena Day Eight" />
+        <activity
+            android:name=".pentDayNine"
+            android:label="Pentecost Novena Day Nine" />
+        <activity
+            android:name=".penticcostDay"
+            android:label="Pentecost Day" />
+        <activity
+            android:name=".n54days"
+            android:label="54 Day Rosary Novena " />
+        <activity
+            android:name=".novenaAssumption"
+            android:label="The Assumption of Mary" />
+        <activity
+            android:name=".conff"
+            android:label="Confession / Reconciliation" />
+        <activity
+            android:name=".archdiocesabujaActivity"
+            android:label="Archdiocese of Abuja (Station of the Cross)" />
+        <activity
+            android:name=".lagosActivity"
+            android:label="Archdiocese of Lagos Station of the Cross" />
+        <activity
+            android:name=".beninarch"
+            android:label="Archdiocese of Benin City (The Stations of the Cross) " />
+        <activity
+            android:name=".Augustinacommunity"
+            android:label="Augustinian Communities (The Stations of the Cross)" />
+        <activity
+            android:name=".wayofthecross"
+            android:label="Way to the Cross" />
+        <activity
+            android:name=".divinemercychaplet"
+            android:label="Divine Mercy Prayers and Chaplet" />
+        <activity
+            android:name=".holryrosary"
+            android:label="Holy Rosary" />
+        <activity
+            android:name=".mayprayer"
+            android:label="May Devotion Prayer" />
+        <activity
+            android:name=".pepertualhelp"
+            android:label="Mother of Pepertual Help" />
+        <activity
+            android:name=".Rosaryofliberation"
+            android:label="Rosary of Liberation" />
+        <activity
+            android:name=".Thankyou"
+            android:label="Thank You" />
+        <activity
+            android:name=".dailyReadings"
+            android:label="Daily Readings" />
+        <activity android:name=".Dailyreading" />
+        <activity
+            android:name=".Eachreadings"
+            android:label="Daily  Reading" />
+        <activity
+            android:name=".Appreciation"
+            android:label="Appreciation" />
+        <activity
+            android:name=".catholicbulletin"
+            android:label="MyBulletin" />
+        <activity
+            android:name=".Catholicdoctrine"
+            android:label="Catholic Doctrine" />
+        <activity
+            android:name=".Catholic_doctrines.Eachdoctrine"
+            android:label="Catholic Doctrine" />
+        <activity android:name=".test.testing" />
+        <activity
+            android:name=".gloria"
+            android:label="Gloria" />
+        <activity
+            android:name=".creed"
+            android:label="Creed (I Believe)" />
+        <activity
+            android:name=".prayerAfterComm"
+            android:label="Prayers After Communion" />
+        <activity
+            android:name=".Edodatabase.EdoReading"
+            android:label="Readings in Edo" />
+        <activity
+            android:name=".LocalLanguages"
+            android:label="Local Language" />
+        <activity
+            android:name=".Yorubadatabase.yoru"
+            android:label="Readings in Yoruba" />
+        <activity
+            android:name=".Hausadatabase.Hausa"
+            android:label="Readings in Hausa" />
+        <activity
+            android:name=".Pidgindatabase.pidgin"
+            android:label="Readings in Pidgin" />
+        <activity
+            android:name=".Igbodatabasse.igbo"
+            android:label="Readings in Igbo" />
+        <activity
+            android:name=".stations.StationRead"
+            android:label="Stations of the Cross" />
+        <activity android:name=".ReadReadings" />
+        <activity android:name=".LoadActivity" />
+        <activity android:name=".Bulletin.Bulletinread" />
+        <activity android:name=".Ekpereuka.EkpereActivity" />
+        <activity android:name=".Adduo.AdduoActivity" />
+        <activity android:name=".Adura.AduraActivity" />
+        <activity android:name=".Eruhwen.EruhmwenActivity" />
+        <activity android:name=".pidginchurchprayer.PidginprayerActivity" />
+        <activity android:name=".HymnAudio.Hymn" />
+        <activity android:name=".HymnAudio.Readmore" />
+        <activity android:name=".Churchprayer.Churchread"></activity>
+    </application>
+
+</manifest>

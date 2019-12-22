@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:background="#212F3D"
+
+    android:layout_height="match_parent"
+    tools:context=".novenaList">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addnovenalist"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarnovenalist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="3 Minutes Novena"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:background="#fff"
+            app:cardCornerRadius="8dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:padding="30dp"
+                android:layout_height="match_parent">
+
+
+
+                <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="right"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+
+                    <ImageView
+                        android:id="@+id/toReading"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/read"
+                        />
+                    <ImageView
+                        android:id="@+id/toPrayers"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/pray"
+                        />
+                    <ImageView
+                        android:id="@+id/toRosary"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/rosary"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#D5D5D4"
+                    android:layout_height="2dp" />
+
+            </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/intro"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="Introduction"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#D5D5D4"
+                    android:layout_height="2dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/novOne"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="Novena Day One"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="#D5D5D4"
+                        android:layout_height="2dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/novTwo"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="Novena Day Two"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="#D5D5D4"
+                        android:layout_height="2dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/pent3"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="Novena Day Three"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="#D5D5D4"
+                        android:layout_height="2dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/novFour"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="Novena Day Four"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="#D5D5D4"
+                        android:layout_height="2dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/novFive"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="Novena Day Five"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="#D5D5D4"
+                        android:layout_height="2dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/novSix"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="Novena Day Six"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="#D5D5D4"
+                        android:layout_height="2dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/novSeven"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="Novena Day Seven"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="#D5D5D4"
+                        android:layout_height="2dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/novEight"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="Novena Day Eight"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="#D5D5D4"
+                        android:layout_height="2dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/novNine"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="Novena Day Nine"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="#D5D5D4"
+                        android:layout_height="2dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </ScrollView>
+</LinearLayout>

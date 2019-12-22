@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".divinemercychaplet">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/adddivinemercyhelpchaplet"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbardivinemercyhelpchaplet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Divine Mercy Prayers and Chaplet"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Praying the Chaplet of the Divine Mercy takes only a few minutes but yields many great benefits. The 3 O'clock prayer can be prayed on its own or in conjunction with the Chaplet for the Divine Mercy. For a brief moment, pause and remember what JESUS did for each one of us. He died, so that we may live. At this hour of Mercy, pause for a brief moment and pray this prayer:"
+                        android:padding="3dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3 O'CLOCK PRAYER FOR MERCY:"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:layout_marginTop="4dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="You expired (died) JESUS, but the source of life gushed forth for souls, and the ocean of mercy opened up for the whole world. O Fount of life, unfathomable Divine Mercy, envelope the whole world and empty yourself out upon us."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="O Blood and Water which gushed forth from the Heart of JESUS, as a fountain of Mercy for us, I trust in you. (Three Times)"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="HOW TO PRAY THE DIVINE MERCY CHAPLET USING A SET OF ROSARY BEADS"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:layout_marginTop="4dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(The Lord said to the Blessed Faustina:you will recite this Chaplet on the beads of the Rosary)"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Using a set of Rosary beads, make the sign of the Cross:"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In the name of THE FATHER, and of THE SON and of THE HOLY SPIRIT. Amen"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="On the first 3 beads after the cross:"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pray one Our Father, one Hail Mary, and the Apostles Creed."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="On the large bead before each of the five decades of the Rosary beads, begin by praying:"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Eternal Father, we offer you the Body, Blood, Soul, and Divinity of your dearly beloved Son, our Lord Jesus Christ, in atonement for our sins and those of the whole world"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Then recite the following prayer on each of the ten small beads"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="L. For the sake of his sorrowful passion,"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R.Have mercy on us and on the whole world."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Conclusion:"
+                        android:layout_marginTop="4dp"
+                        android:padding="3dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="After concluding the five decades, then pray:"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="L/ Holy God, Holy Mighty One, Holy Immortal One,"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R/ Have mercy on us and on the whole world. (x3)"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let Us Pray:"
+                        android:layout_marginTop="4dp"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Holy and Eternal God, in whom Mercy is endless and the treasury of compassion inexhaustible, look kindly upon us and increase your Mercy in us so that in difficult moments, we might not despair nor become despondent, but with increasing confidence, submit ourselves to your Holy Will, which is Love and Mercy itself. Amen."
+                        android:padding="3dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PRAYER OF TRUST IN THE DIVINE MERCY"
+                        android:layout_marginTop="4dp"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I fly to your mercy, compassionate God who alone are good. All my misery is great and my offenses are many, I trust in your mercy, because you are the God of mercy; and from time immemorial, it has never been heard of, nor do heaven or earth remember, that a soul trusting in your mercy has been disappointed."
+                        android:padding="3dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="O God of compassion, you alone can justify me you will never reject me when I, contrite, approach your merciful heart, where no one has ever been refused, even if he were the greatest sinner. Jesus, friend of lonely heart, you are my heaven, you are my peace. You are my salvation; you are my serenity in moments of struggle and amidst an ocean of doubts. You are bright ray that lights up the soul even when it remains silent. You know our weakness and like a good Physician, you comfort and heal, sparing us sufferings-Expert that you are. Amen."
+                        android:padding="3dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Miracle Prayer"
+                        android:layout_marginTop="4dp"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lord Jesus, I come before you just as I am. I am sorry for all my sins. I repent of my sins, please forgive me. In your name, I forgive all others for what they have done against me. I renounce Satan, the evil spirits and all their works. I give you my entire self, Lord Jesus, now and forever. In invite you into my life Jesus. I accept you as my Lord, God and saviour. Heal me, change me, strengthen me in body, soul and spirit. Come Lord Jesus, cover me with your Precious Blood and fill me with Your Holy Spirit. I love you Lord Jesus. I praise you Jesus. I thank you Jesus. I shall follow you everyday of my life. Amen. Mary my mother, queen of peace, all the angels and saints, please help me. Amen"
+                        android:padding="3dp"
+                        android:textStyle="bold"
+                        />
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

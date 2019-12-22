@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="#212F3D"
+    tools:context=".languages">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#fff"
+                app:cardCornerRadius="8dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="365 Local Languages"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:layout_marginBottom="15dp"
+                        />
+
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginBottom="30dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/local"
+                            />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="5dp"
+                        android:id="@+id/pidginlang"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_marginRight="15dp"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/pidgin"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Pidgin English"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="#D5D5D4"
+                        android:layout_height="2dp" />
+
+
+                    <LinearLayout
+                        android:id="@+id/igbolang"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_marginRight="15dp"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/igbo"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Igbo Language"
+                            />
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="#D5D5D4"
+                        android:layout_height="2dp" />
+
+                    <LinearLayout
+                        android:id="@+id/hausalang"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_marginRight="15dp"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/hauas"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:textSize="14dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="Hausa Language"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="#D5D5D4"
+                        android:layout_height="2dp" />
+
+                    <LinearLayout
+                        android:id="@+id/yorubalang"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_marginRight="15dp"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/youruba"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:textSize="14dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="Yoruba Language"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="#D5D5D4"
+                        android:layout_height="2dp" />
+
+                    <LinearLayout
+                        android:id="@+id/edolang"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_marginRight="15dp"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/edo"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:textSize="14dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="Edo Language"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="#D5D5D4"
+                        android:layout_height="2dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

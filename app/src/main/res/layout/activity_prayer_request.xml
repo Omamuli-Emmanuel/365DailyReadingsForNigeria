@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#212F3D"
+    android:padding="8dp"
+    android:layout_height="match_parent"
+    tools:context=".prayerRequest">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addprayerrequest"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarprayerrequest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Prayer Request"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:background="#fff"
+            app:cardCornerRadius="8dp"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_height="match_parent">
+
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:padding="8dp"
+                        android:src="@drawable/pray"
+                        />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:padding="10dp"
+                    android:text="Find Hope and Comfort."
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Let Us Join you in prayers. You can now send your Prayer Request to the 365 Prayer Team."
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="Keep your request civil and direct"
+                    />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="5dp"
+                    android:layout_height="wrap_content">
+               <Button
+                   android:id="@+id/prayButton"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="See How"
+                   android:textColor="#fff"
+                   android:padding="5dp"
+                   android:layout_gravity="center"
+                   android:background="@color/colorPrimaryDark"
+                   />
+                </android.support.v7.widget.CardView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:padding="5dp"
+                    android:text="AUTHORITY TO CLAIM VICTORY IN PRAYERS"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Spiritual warfare is most effective when you take responsibility of your spiritual works, you must learn how to identify the devices of the devil, and by the authority of the Holy Spirit command it accordingly."
+                    android:gravity="center"
+                    android:textStyle="italic"
+                    android:padding="10dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="By virtue of your baptism you have been given the authority to cast out demons and evil situations, be it, in your Home, Family, Ancestral courses, Bareness, Joblessness, Business, Finances etc, when it has violated your sphere of influence, you can take authority by commanding the evil spirit to depart in the name of Jesus."
+                    android:gravity="center"
+                    android:textStyle="italic"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="In Luke 9:1-2, Jesus called the twelve and gave them power and authority over all demons and infirmities and to proclaim the word of God. However, Seventy-seven more disciples with the same mission were sent out in Luke 10:17-19. Beloved, by this, Jesus has given you authority to tread over all the powers of the evil one, upon serpents and scorpions and nothing will hurt you; this power of the Holy Spirit was imparted to believers at Baptism and Confirmation."
+                    android:gravity="center"
+                    android:textStyle="italic"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

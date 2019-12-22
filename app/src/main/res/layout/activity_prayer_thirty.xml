@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#212F3D"
+    android:padding="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prayerThirty">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addprayerthirty"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarprayerthirty"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Removing Personal Demonic Influence"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textColor="#ff0000"
+                        android:text="To be taken as often as possible"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dear Lord Jesus Christ, please send your warring angels to remove and bind to the abyss every demonic influence that has contributed to my sinful behaviors of impatience, resentment, pride, rebellion, stubbornness, unforgiveness, gossip, disobedience, strife, violence, divorce, accusation, anger, manipulation, jealousy, greed, laziness, revenge, desiring, selfishness, control, retaliation, criticism, selfishness, dishonesty, cheating, unbelief, seduction, lust, pornography, masturbation, idolatry and witchcraft."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="May you remove every demonic influence that has contributed to my physical, psychological or spiritual infirmities of nerve disorder, lung disorder, brain disorder or dysfunction, and sickness (mention the type of illness) poor self-image, anxiety, shame and fear."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I arise today through the power of the Lord Jesus Christ and ask to be filled with the Holy Spirit's gifts of peace, patience, love, joy, kindness, generosity, faithfulness, gentleness, self-control, humility, forgiveness, goodness, fortitude, discipline, truth, relinquishment, good self-image, prosperity, charity, obedience, a sound mind, fulfillment in Christ, acceptance of self, acceptance of others, trust, freedom from addictions, freedom of having-to-control, freedom from shame, wholeness, wellness, health, wisdom, knowledge, understanding, and the light and life of the Lord Jesus Christ. Amen."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

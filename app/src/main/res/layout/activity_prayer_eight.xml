@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#212F3D"
+    android:padding="8dp"
+    android:layout_height="match_parent"
+    tools:context=".prayerEight">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addprayereight"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarprayereight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Prayer Against Sexual Sin"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(if you are addicted to any form of Sexual Sin, be it Fornication, Adultery, Masturbation, etc.,take this prayer seriously)"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginTop="10dp"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="In the Mighty name of Jesus, I renounce all sexual sins that I have been involved with in the past, including fornication, masturbation, pornography, perversion, fantasy and adultery in the name of Jesus. O God release me from every curse afflicted on me as a result of adultery, perversion, fornication, lust, incest, rape, molestation, illegitimacy, harlotry, and polygamy in the name of Jesus."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="I blind and command all spirits of lust and perversion to come out of my stomach, genitals, eyes, mind, mouth, hands, and blood in the name of Jesus"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="According to the word of God, I present my body to the Lord as a living sacrifice unto you O my Lord."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="I release the fire of God to burn out all unclean lust from my life in the name of Jesus."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="I break all ungodly soul ties with former lovers and sexual partners in the name of Jesus."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="I cast out all spirits of loneliness that makes me to engage in an ungodly sexual relationships in the name of Jesus."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="By the authority in the name of Jesus, I command all spirits of hereditary lust from my ancestors to come out of me, go into the abyss and never come back again in the name of Jesus."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="I command the spirit of lust injected into me by the spirit husband/ wife to be destroyed by the fire of the Holy Spirit, in the name of Jesus."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="I command the spirit of lust injected into me by the spirit witches and wizards to be destroyed by the fire of the Holy Spirit, in the name of Jesus."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="I take authority over my thoughts and bind all spirits of fantasy and lustful thinking in the name of Jesus Christ. Amen."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="I receive the spirit of holiness in my life to walk in sexual purity in the name of Jesus."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="According to the word of God in 1st John 2:16, I loose myself from the spirit of the world, the lust of the flesh, the lust of the eyes, and the pride of life. I overcome the world through the power of the Holy Spirit in the name of Jesus Christ; because according to Romans. 6:6-12, I am crucified with Christ. I mortify my members, sin cannot reign in my body and I will not obey its lust. Amen."/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

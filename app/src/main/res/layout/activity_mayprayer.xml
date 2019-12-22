@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mayprayer">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addmayprayer"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarmayprayer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="May Devotion Prayer"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    app:cardCornerRadius="8dp"
+                    android:background="#fff"
+                    android:layout_marginBottom="2dp"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:padding="30dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Devotion to Our Lady in the Month of May"
+                            android:padding="3dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="(Program of Prayers in Honor of Our Lady of the Rosary)"
+                            android:padding="3dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="You are encouraged to recite the fifteen decades every day of the month of May"
+                            android:padding="3dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1. In the name of the Father"
+                            android:textColor="#000"
+                            android:padding="3dp"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2. Act of Contrition"
+                            android:textColor="#000"
+                            android:padding="3dp"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="O my God, I am sorry and beg pardon for all my sins, and detest them above all things, because they have crucified my loving Saviour Jesus Christ, and, most of all, because they offend your infinite goodness; and I firmly resolve, by the help of your grace, never to offend you again, and carefully to avoid the occasion of sin."
+                            android:padding="3dp"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3. Invocation of the Holy Spirit:"
+                            android:padding="3dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Come, O Holy Spirit, fill the hearts of the faithful and enkindle in them the fire of your love."
+                            android:padding="3dp"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="V. Send forth your Spirit and they shall be created"
+                            android:padding="3dp"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="R. And you shll renew the face of the earth."
+                            android:padding="3dp"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Let Us pray:"
+                            android:layout_marginTop="4dp"
+                            android:padding="3dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="O God, who taught the hearts of the faithful by the light of the Holy Spirit, grant that by the gift of the same Spirit we may be always truly wise and ever rejoice in his consolation, Through Christ Our Lord."
+                            android:padding="3dp"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4. Daily Prayer to the Blessed Virgin Mary during May"
+                            android:padding="3dp"
+                            android:textColor="#000"
+                            android:layout_marginTop="4dp"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="O most Blessed Virgin Mary! Holy Mother of God! Glorious Queen of Heaven and earth! Powerful Protectress of those who love Thee, and unfailing Advocate of all who invoke Thee! Look down, we beseech Thee, from Thy throne of glory on Thy devoted children; accept the solemn offering we present Thee of this month of May, specially dedicated to Thee, and receive our ardent, humble desires, that by our love and fervor we might worthily honor Thee, who, next to God, art deserving of all honor."
+                            android:padding="3dp"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Receive us, O Mother of Mercy, among Thy best beloved children; extend to us Thy maternal tenderness and solicitude; obtain for us a place in the Heart of Jesus, and a special share in the gifts of His grace. O deign, we beseech Thee, to recognize our claims on Thy protection, to watch over our spiritual and temporal interests, as well as those of all who are dear to us [During Mothers Day Novena add especially our own mothers and grandmothers, and those souls who are enrolled in the special Mothers Day novena prayers and Masses.] O Immaculate Queen of the Universe, do Thou infuse into our souls the spirit of Christ, and teach us Thyself to become meek, humble, obedient, charitable, patient, and submissive to the Will of God."
+                            android:padding="3dp"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="May our hearts burn with the love of Thy Divine Son, and of Thee, His blessed Mother, not for this month alone, but for time and eternity. May we thirst for the promotion of His honor and Thine, and contribute, as far as we can, to its extension. Receive us, O Mary, the refuge of sinners! Grant us a Mother's blessing and a Mother's care, now, and at the hour of our death. Amen."
+                            android:padding="3dp"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="5. Rosary and Litany of the Blessed Virgin Mary(Mystery of the Day)"
+                            android:padding="3dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="6. Exposition of the Blessed Sacrament (By a Priest)"
+                            android:padding="3dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="7. Short Talk and Private Meditation (10mins)"
+                            android:padding="3dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="8. Prayer to Mary"
+                            android:padding="3dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mary, Immaculate Queen of the Universe, Spouse of the Holy Ghost, Mediatrix of All Graces, Triumph and Reign, in the Name of Jesus,
+and for the Love of Jesus, now and Forever. Amen."
+                            android:padding="3dp"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="9. Gift of Candle light To Mary and offering of Petitions at the foot of Mary"
+                            android:padding="3dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10. ACT OF CONSECRATION TO THE IMMACULATE HEART OF MARY"
+                            android:padding="3dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="O Virgin Mary, most powerful Mother of Mercy, Queen of Heaven and earth, in accordance with your wish made known at Fatima, I consecrate myself today to your Immaculate Heart. To you I entrust all that I have, all that I am. Reign over me, dearest Mother, that I may be yours in prosperity, in adversity, in joy and in sorrow, in health and in sickness, in life and in death."
+                            android:padding="3dp"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Most compassionate Heart of Mary, Queen of Virgins, watch over my mind and heart and preserve me from the deluge of impurity which you lamented so sorrowfully at Fatima. I want to be pure like you. I want to atone for the many crimes committed against Jesus and you. I want to call down upon this country and the whole world the peace of God in justice and charity."
+                            android:padding="3dp"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="11. Memorare:"
+                            android:padding="3dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Remember, O most gracious Virgin Mary, that never was it known that anyone who fled to thy protection, implored thy help, or sought thy intercession was left unaided. Inspired with this confidence, I fly to thee, O Virgin of virgins, my mother; to thee do I come; before thee I stand, sinful and sorrowful. O Mother of the word Incarnate, despise not my petitions, but in thy mercy hear and answer me. Amen."
+                            android:padding="3dp"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="12. Hymn to Mary"
+                            android:padding="3dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="13. Benediction"
+                            android:padding="3dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="14. Dismissal"
+                            android:padding="3dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            />
+
+
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+</LinearLayout>

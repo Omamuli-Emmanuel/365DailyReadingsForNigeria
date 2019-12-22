@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#212F3D"
+    android:padding="8dp"
+    android:layout_height="match_parent"
+    tools:context=".novena">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addnovena"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarnovena"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Novena"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="8dp"
+        android:background="#fff"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="30dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/novListOne"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="3 Minutes Nine Days Novena"
+                    />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    app:cardCornerRadius="5dp"
+                    android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10 Items"
+                    android:textSize="12sp"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:background="#922B21"
+                    android:textColor="#fff"
+                    />
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:background="#D5D5D4"
+                android:layout_height="2dp" />
+
+            <LinearLayout
+                android:id="@+id/novListTwo"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="Pentecost Novena"
+                    />
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    app:cardCornerRadius="5dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="11 Items"
+                        android:textSize="12sp"
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        android:background="#922B21"
+                        android:textColor="#fff"
+                        />
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:background="#D5D5D4"
+                android:layout_height="2dp" />
+
+            <LinearLayout
+                android:id="@+id/n54days"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="54 Day Rosary Novena"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:background="#D5D5D4"
+                android:layout_height="2dp" />
+
+            <LinearLayout
+                android:id="@+id/assumptin"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:text="Novena of the assumption of Mary"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:background="#D5D5D4"
+                android:layout_height="2dp" />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

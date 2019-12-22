@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Eachreadings">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addeachreading"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbareachreading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Daily Reading"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="right"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="right"
+            android:layout_marginBottom="10dp"
+            >
+
+            <ImageView
+
+                android:layout_width="100dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ccd"
+                android:scaleType="fitCenter"
+                android:id="@+id/calendarread"/>
+
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="9dp"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/bulread"
+                android:id="@+id/bulletinread"/>
+            <ImageView
+                android:layout_marginLeft="9dp"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/gloria"
+                android:id="@+id/glos"/>
+
+
+            <ImageView
+                android:layout_marginLeft="9dp"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/creed"
+                android:id="@+id/cres"/>
+
+
+            <ImageView
+                android:layout_marginRight="3dp"
+                android:layout_marginLeft="9dp"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/prayers_after_communion"
+                android:id="@+id/prs"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#fff"
+        android:orientation="vertical">
+
+
+
+
+
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/Datebold"
+            android:text="Datebold"
+            android:textColor="#000"
+            android:layout_marginLeft="3dp"/>
+
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/bodydate"
+            android:textColor="#000"
+            android:layout_marginBottom="15dp"
+            android:text="bodydate"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="3dp"/>
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:id="@+id/boldcollet"
+            android:text="boldcollet"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="3dp"/>
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/bodycollet"
+            android:textColor="#000"
+            android:layout_marginBottom="15dp"
+            android:text="bodycollet"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="3dp"/>
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:id="@+id/firstreading"
+            android:textColor="#000"
+            android:text="firstreading"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="3dp"/>
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/pasagered"
+            android:text="passagered"
+            android:textColor="#fff00000"
+            android:layout_marginLeft="3dp"/>
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:id="@+id/bodyfirstreading"
+            android:text="bodyfirstreading"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="3dp"/>
+
+
+
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/redresponsialpsalm"
+            android:text="red responsial psalm"
+            android:textColor="#fff00000"
+            android:layout_marginLeft="3dp"/>
+
+
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/boldresponse"
+            android:text="boldresponse"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="3dp"/>
+
+
+
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/bodyresponsialpsalm"
+            android:text="bodyresponsialpsalm"
+            android:textColor="#000"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="3dp"/>
+
+
+
+
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/SecondReadingbold"
+            android:text="secondreadingbold"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="3dp"/>
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/redsecondreading"
+            android:text="redthemesecondreading"
+            android:textColor="#fff00000"
+            android:layout_marginLeft="3dp"/>
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/bodysecondreading"
+            android:text="bodysecondreading"
+            android:textColor="#000"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="3dp"/>
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/Alleulia"
+            android:text="alleluia"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="3dp"/>
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/bodyAlleluia"
+            android:text="bodyAlleluia"
+            android:textColor="#000"
+            android:layout_marginLeft="3dp"/>
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/Gospelreading"
+            android:textColor="#000"
+            android:text="Gospelreading"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="3dp"/>
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/redGospelreading"
+            android:text="redGOspelreading"
+            android:textColor="#fff00000"
+            android:layout_marginLeft="3dp"/>
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:id="@+id/bodyGospelreading"
+            android:text="bodyGospelreading"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="3dp"/>
+
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/prayerofthefaithful"
+            android:text="prayerofthefaithful"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="3dp"/>
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:id="@+id/bodyprayerofthefaithful"
+            android:text="bodyprayerofthefaithful"
+            android:layout_marginLeft="3dp"/>
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:id="@+id/Todaysreflection"
+            android:text="Today's reflection"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="3dp"/>
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:id="@+id/bodyTodaysreflection"
+            android:text="bodyToday's reflection"
+            android:layout_marginLeft="3dp"/>
+
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:id="@+id/personalDevotional"
+            android:text="Personal Devotional"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="3dp"/>
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:id="@+id/bodypersonalDevotional"
+            android:text="boodypersonalDevotional"
+            android:layout_marginLeft="3dp"/>
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#212F3D"
+    android:padding="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prayerFourteen">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addprayerfourteen"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarprayerfourteen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Prayer Of The Saints"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        android:text="Prayer of Saint Francis of Assisi"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lord, make me an instrument of your peace. Where there is hatred, let me sow love. Where there is injury, pardon. Where there is doubt, faith. Where there is despair, hope. Where there is darkness, light. Where there is sadness, joy. O Divine Master, grant that I may not so much seek to be consoled as to console. To be understood as to understand, to be loved as to love. For it is in giving that we receive, it is in pardoning that we are pardoned, and it is in dying that we are born to Eternal Life. Amen."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        android:text="Prayer of St. Benedict"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gracious and holy Father, please give me: intellect to understand you, reason to discern you; diligence to seek you; wisdom to find you; a spirit to know you; a heart to meditate upon you; ears to hear you; eyes to see you; a tongue to proclaim you; a way of life pleasing to you; patience to wait for you; and perseverance to look for you. Grant me: a perfect end, your holy presence. A blessed resurrection, and life everlasting."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        android:text="Prayer of St. Augustine"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Watch, dear Lord, with those who wake, or watch, or weep tonight, and let your angels protect those who sleep. Tend the sick. Refresh the weary. Sustain the dying. Calm the suffering. Pity the distressed. We ask this for the sake of your love. Lord Jesus, our Saviour, let us come to you. Our hearts are cold; Lord, warm them with selfless love. Our hearts are sinful; cleanse them with your precious blood. Our hearts are empty; fill them with your divine presence, Lord Jesus, our hearts are yours; possess them always and only for yourself."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        android:text="Prayer of St. Ignatius de Loyola"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="O Christ Jesus, when all is darkness, and we feel our weakness and helplessness, give us to have perfect trust in your protecting love and strengthening power, so that nothing may frighten or worry us, for, living close to you, we shall see your hand, your purpose, your will through all things."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        android:text="Prayer to St. Michael the Archangel"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="St. Michael the Archangel, defend us in battle. Be our defense against the wickedness and shares of the Devil. May God rebuke him, we humbly pray, and do thou, O Prince of the heavenly hosts, by the power of God, cast into hell satan, and all the evil spirits, who prowl about the world seeking the ruin of souls. Amen."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        android:text="St. Augustine"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Breathe into me, Holy Spirit, that my thoughts may all be holy. Move in me, Holy Spirit, that my work, too, may be holy. Attract my heart, Holy Spirit, that I may love only what is holy. Strengthen me, Holy Spirit that I may defend all that is holy. Protect me, Holy Spirit, that I may always be holy."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        android:text="Prayer of St. John Paul II for Vocation"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lord Jesus, as you once called the first disciples to make them fishers of men, let your sweet invitation continue to resound in the hearts of those you have called: come follow me!. Give young men and women the grace of responding quickly to your voice. Support our bishops, priests and consecrated people in their apostolic labor. Grant perseverance to our seminarians and to all those who are carrying out the ideal of a life totally consecrated to your service. Remove every human and demonic hindrance from the path to the altar of ordination and consecration for those whom you have called. Deliver our seminarians, Aspirants, religious men and women. Priests, formators and vocations directors (you can mention names) from the influence and control of evil powers.(added). Awaken in our community a missionary eagerness. Lord. SEND WORKERS TO YOUR HARVEST and do not allow humanity to be lost for the lack of pastors, missionaries and people dedicated to the cause of the Gospel. Mary, Mother of the Church, the model of every vocation, help us to say yes to the Lord who calls us to cooperate in the divine plan of salvation
+in the name of Jesus Amen"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        android:text="Prayer of St. Pio of Pietrelcina"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Stay with me, Lord, for it is necessary to have you present so that I do not forget you, you know how easily I abandon you. Stay with me, Lord, because I am weak, and I need you strength, that I may not fall so often, stay with me, Lord, for you are my life, and without you, I am without fervor. Stay with me, Lord, for you are my light, and without you, I am in darkness. Stay with me, Lord, to show me your will. Stay with me, Lord, for I desire to love you very much, and always be in your company. Stay with me, Lord, if you wish me to be faithful to you. Stay with me, Lord, for as poor as my soul is, I want it to be a place of consolation for you, a nest of love. Stay with me, Jesus, for it is getting late and the day is coming to a close, and life passes; death, judgment, eternity approaches. It is necessary to renew my strength, so that I will not stop along the way and for that, I need you. It is getting late and death approaches, I fear the darkness, the temptations, the dryness, the cross, the sorrows. O how I need you, my Jesus, in this night of exile! Stay with me tonight, Jesus, in life with all its dangers. I need you. Let me recognize you as your disciples did at the breaking of the bread, so that the Eucharistic Communion be the Light which disperses the darkness, the force which sustains me, the unique joy of my heart. Stay with me, Lord, because at the hour of my death, I want to remain united to you, if not by communion, at least by grace and love. Stay with me, Jesus, I do not ask for divine consolation, because I do not merit it, but the gift of your presence, oh yes, I ask this of you! Stay with me, Lord, for it is you alone I look for, your love, your Grace, your Will, your Heart, your Spirit, because I love you and ask no other reward but to lobe you more and more. With a firm love, I will love you with all my heart while on earth and continue to love you perfectly during all eternity. Amen."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        android:text="Prayer of Saint Ignatius"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Teach us, good Lord, to serve you as you deserve; to give and not to count the cost; to fight and not to heed the wounds; to toil and not to seek for rest; to labour and not ask for any reward, save that of knowing that we do your will. Amen."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        android:text="Prayer of Saint Richard of Chichester"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Thanks be to you, my Lord Jesus Christ, for all the benefits which you have given me, for all the pains and insults which you have borne for me. O most merciful Redeemer, friend and brother, may I know you more clearly, love you more dearly, and follow you more nearly, day by day. Amen."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        android:text="Prayer To My Guardian Angel"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="O angel of God, my guardian dear"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="To whom God's love commits me here."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ever this day/night be at my side"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="To light, to guard, to rule and guide."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        android:text="Prayer to Saint Michael"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="St. Michael, the Archangel, defend us in the day of battle; be our safeguard against the wickedness and snares of the devil. May God rebuke him, we humbly pray and do you, O Prince of the heavenly host, by the power of God, cast into hell Satan and all the other evil spirits who prowl through the world seeking the ruin of souls. Amen."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        android:text="Prayers of St. Thomas More"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I wish, my Lord to receive you with the purity, humility and devotion with which your Most Holy Mother received you, with the spirit and fervor of the saints. Come Lord Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Give me, good Lord, a longing to be with you.. Give me warmth, delight and quickness in thinking upon you. And give me your grace to long for your holy sacraments, and specially to rejoice in the presence of your very blessed body, Sweet Saviour Christ, in the Holy Sacrament for the altar."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Give me, good Lord, a longing to be with you.. Give me warmth, delight and quickness in thinking upon you. And give me your grace to long for your holy sacraments, and specially to rejoice in the presence of your very blessed body, Sweet Saviour Christ, in the Holy Sacrament for the altar."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        android:text="Acts of Spiritual Communion by St. Alphonsus Liguori"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="My Jesus, I believe that you are present in the Most Holy Sacrament. I love you above all things, and I desire to receive you into my soul. Since I cannot at this moment receive you sacramentally, come at least spiritually into my heart. I embrace you as being already there and unite myself wholly to you. Never permit me to be separated from you. Amen."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#212F3D"
+    android:padding="8dp"
+    android:layout_height="match_parent"
+    tools:context=".prayerSix">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addprayersix"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarprayersix"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Litany of the Holy Spirit"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textColor="#ff0000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(For private use only)"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginTop="10dp"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Lord, have mercy on us.
+Christ, have mercy on us.
+Lord, have mercy on us."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Father all-powerful, have mercy on us. Jesus, Eternal Son of the Father, Redeemer of the world, save us. Spirit of the Father and the Son, boundless life of both, sanctify us. Holy Trinity, hear us."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Holy Spirit, Who proceedest from the Father and the Son, enter our hearts. Holy Spirit, Who art equal to the Father and the Son, enter our hearts."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Promise of God the Father, have mercy on us."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Ray of heavenly light, have mercy on us"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold"
+                                android:textSize="14dp"
+                                android:textColor="#000"
+                                android:text="Author of all good, [etc.]"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Source of heavenly water Consuming fire"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textColor="#000"
+                                android:textStyle="bold"
+                                android:text="Ardent charity"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Spiritual unction"/>
+
+                            <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                                android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="#000"
+                            android:text="Spirit of love and truth"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Spirit of wisdom and understanding"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Spirit of counsel and fortitude"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Spirit of knowledge and piety"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Spirit of the fear of the Lord"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Spirit of grace and prayer"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Spirit of peace and meekness"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Spirit of modesty and innocence"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Holy Spirit, the Comforter"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Holy Spirit, the Sanctifier"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Holy Spirit, Who governest the Church"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Gift of God, the Most High"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Spirit Who fillest the universe"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Spirit of the adoption of the children of God"/>
+
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Holy Spirit, inspire us with horror of sin."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Holy Spirit, come and renew the face of the earth."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Holy Spirit, shed Thy light in our souls."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Holy Spirit, engrave Thy law in our hearts."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Holy Spirit, inflame us with the flame of Thy love."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Holy Spirit, open to us the treasures of Thy graces"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textColor="#000"
+                                android:textStyle="bold"
+                                android:text="Holy Spirit, teach us to pray well."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Holy Spirit, enlighten us with Thy heavenly inspirations."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Holy Spirit, lead us in the way of salvation"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Holy Spirit, grant us the only necessary knowledge."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Holy Spirit, inspire in us the practice of good."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Holy Spirit, grant us the merits of all virtues."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Holy Spirit, make us persevere in justice."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Holy Spirit, be Thou our everlasting reward."/>
+
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Lamb of God, Who takest away the sins of the world"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Send us Thy Holy Spirit."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Lamb of God, Who takest away the sins of the world"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Pour down into our souls the gifts of the Holy Spirit."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Lamb of God, Who takest away the sins of the world."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Grant us the Spirit of wisdom and piety."/>
+
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#000"
+                                android:text="Come, Holy Spirit! Fill the hearts of Thy faithful"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="And enkindle in them the fire of Thy love."/>
+
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Let us pray."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Grant, O merciful Father, that Thy Divine Spirit may enlighten, inflame and purify us, that He may penetrate us with His heavenly dew and make us fruitful in good works, through Our Lord Jesus Christ, Thy Son, Who with Thee, in the unity of the same Spirit, liveth and reigneth, one God, forever and ever."/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:textStyle="bold"
+                                android:textColor="#ff0000"
+                                android:text="Amen."/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rosaryofliberation">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addrosaryofliberation"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarrosaryofliberation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Rosary of Liberation"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="THE Rosary OF LIBERATION begins with Apostles Creed and ends with the Hail Holy Queen."
+                        android:padding="3dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In the place of the Our Father [on the large beads], we will pray the Words of God,
+if the Son makes you free, you will be free in deed (John 8:36)"
+                        android:padding="3dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="For example, if I am praying for myself, I would say (on the large beads of the Rosary):"
+                        android:padding="3dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="IF JESUS MAKES ME FREE, I WILL BE FREE INDEED."
+                        android:padding="3dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="If I am praying for my family, I would say:"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="IF JESUS MAKES MY FAMILY FREE, MY FAMILY WILL BE FREE INDEED."
+                        android:padding="3dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="It is the word of God that is proclaimed."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In place of the Hail Mary's (on the small beads), pray"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JESUS, HAVE MERCY ON ME!"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JESUS, HEAL ME! (3x)"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="If you are praying for your family, you should pray on each small bead:"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JESUS, HAVE MERCY ON MY FAMILY!"
+                        android:padding="3dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JESUS, HEAL MY FAMILY! (3x)"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="And on the large beads:"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="IF JESUS MAKES MY FAMILY FREE, MY FAMILY WILL BE FREE INDEED."
+                        android:padding="3dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="If you are praying for a special person, for example (Mention the Name of the person),:"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="On the large beads of the Rosary say:"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="IF JESUS MAKES (NAME) FREE, (NAME) WILL BE FREE INDEED."
+                        android:padding="3dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Then on the small beads:"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JESUS, HAVE MERCY ON (NAME)!"
+                        android:padding="3dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JESUS, HEAL (NAME)!"
+                        android:padding="3dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JESUS, SAVE (NAME)!"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JESUS, FREE (NAME)!"
+                        android:padding="3dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="After praying the Rosary of Liberation completely, give thanks to Jesus for the blessings that he is pouring over you and those for whom you are interceding."
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let us Pray:"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lord Jesus, we praise and thank you, because you, through your mercy and pity. Created this powerful prayer to produce marvelous fruits of healing. Salvation and freedom in our lives, in our families, and in the lives of those for whom we pray. Thank you, Jesus, for you infinite love for us! And heavenly father, we love you, Father, with all the confidence of children. We draw nearer to you, at this moment, and pray that the Holy Spirit flows into our hearts. Father, so that the Holy Spirit can come into us, we want to empty ourselves. So, before the Cross of Jesus Christ, we renew our complete and unconditional deliverance to you. We ask that all our sins be forgiven and placed, now, on the wounded body of Jesus. We empty ourselves of all afflictions, worries, anguish, and all that have taken the joy from our lives. We deliver our heart to you, in the name of Jesus. Father, we also place on the crucified body of Jesus all our infirmities of body, soul and spirit; our worries about our families and work; our financial and marital problems; and all our anguish, uncertainties and affliction. Lord, we beseech the redeeming power of the Blood of Jesus. May this blood come over us now to cleanse and purify our hearts of all bad feelings. Jesus, have mercy on me! Jesus have mercy on us! Yes Father, we want to turn over to you all our desires, weaknesses, miseries, and sins; our hearts, body, soul, and spirit, everything that we are and have: our faith life, marriage, family, work, vocation, and ministry fill us with your spirit Lord! Fill us with your love, with your power and with your life! Come, Holy Spirit of God! Come and bring to life the word of God in us, proclaimed through the Rosary of Liberation, and that this bring about in every heart the grace to heal, in the name of JESUS Christ our Lord. Amen."
+                        android:padding="3dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Easy, isn't it? You will see at the end of the Rosary of Liberation the effects of God's grace in yourself, in your family, or in the life of those for whom you are praying. The heavenly Father will send healing, salvation and liberation. When you are praying this Rosary, you proclaim the name of Jesus 205 times."
+                        android:padding="3dp"
+                        android:textColor="#b22222"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

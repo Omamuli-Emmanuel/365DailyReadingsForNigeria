@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:id="@+id/bullcard"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/download"
+            android:id="@+id/bulimage"
+            android:layout_marginTop="5dp"/>
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/bulsignimage"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="9dp"
+                android:src="@drawable/bulletin"
+                android:layout_gravity="center_horizontal"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:layout_marginBottom="4dp"
+            android:textStyle="bold"
+            android:textColor="#ff0000"
+            android:textSize="18sp"
+            android:id="@+id/title"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:maxLines="2"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bodysss"
+            android:id="@+id/bodysss"/>
+
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>

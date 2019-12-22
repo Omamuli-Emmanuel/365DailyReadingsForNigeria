@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#212F3D"
+    android:padding="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prayerSeventeen">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addprayerseventeen"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarprayerseventeen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Prayer while visiting the Blessed Sacrament"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        android:text="Prayer of Saint Francis of Assisi"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="My Lord Jesus Christ,for the love which You bear to men,
+You remain night and day in this Sacrament full of compassion and of love,
+awaiting, calling, and welcoming all who come to visit You.
+I believe that You are present in the Sacrament of the Altar:
+I adore You from the abyss of my nothingness, and I thank You for all the graces which You have bestowed upon me and in particular for having given me Yourself in this Sacrament, for having given me your holy Mother Mary for my advocate, and for having called me to visit You in this chapel. I now salute Your most loving Heart: and this for three ends:"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. In thanksgiving for this great gift"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. To make amends to You for all the outrages which You receive in this Sacrament from all Your enemies"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. I intend by this visit to adore You in all the places on earth in which You are the least revered and the most abandoned."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="My Jesus, I love You with all my heart. I grieve for having so many times offended Your infinite goodness. I promise with Your grace never more to offend You in the future.
+Now, miserable and unworthy though I be, I consecrate myself to You without reserve;
+I give You my entire will, my affections, my desires, and all that I possess. From now on dispose of me and of all that I have as You please. All that I ask of You and desire is Your holy love, final perseverance, and the perfect accomplishment of Your will. I recommend to You the souls in purgatory; but especially those who had the greatest devotion to the most Blessed Sacrament and to the Blessed Virgin Mary. I also recommend to You all poor sinners."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="My dear Saviour, I unite all my affections with the affections of Your most loving Heart; and I offer them, thus united, to Your eternal Father, and beseech Him in Your name to vouchsafe, for Your love, to accept them. Amen."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

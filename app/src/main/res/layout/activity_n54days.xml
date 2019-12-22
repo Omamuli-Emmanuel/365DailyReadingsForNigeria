@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".n54days">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addn54day"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarn54day"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="54 Day Rosary Novena"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            app:cardCornerRadius="8dp"
+            android:background="#fff"
+            android:layout_marginBottom="2dp"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="30dp"
+            android:layout_height="match_parent">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THE MIRACULOUS 54-DAY ROSARY NOVENA"
+        android:textColor="#ff0000"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Traditionally a novena is nine days. Thus, Our Lady's words to young Fortuna make three novenas of the prayers of the Rosary in petition, and three novenas in thanksgiving. The novena consists of five decades of the Rosary (one set of mysteries) each day for twenty-seven days in petition; then immediately five decades each day for an additional twenty-seven days in thanksgiving, regardless of whether or not the request has been granted yet. So began six novenas of Rosaries which became known as the 54-day Rosary Novena."
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:padding="3dp"
+        />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To do the novena properly one must pray the Rosary for 54 consecutive days, without missing a day, and must pray the particular Mystery indicated for that day following the correct sequence. That is, the first day of the novena always begins with the Joyful Mysteries (regardless of what day of the week the novena is started); the second day, the Sorrowful Mysteries are prayed; and the third day of the novena, the Glorious Mysteries are prayed."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The fourth day of the novena begins again with the Joyful Mysteries and continues on, in that sequence throughout the 54 days of the novena."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="People have asked over time about the Luminous Mysteries this novena was given by Our Lady as noted above in 1884 and only allows for the Joyful, Sorrowful and Glorious Mysteries"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="he Miraculous Rosary Novena"
+                android:textColor="#b22222"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="THE JOYFUL MYSTERIES OF THE HOLY ROSARY"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prayer before the recitation: Sign of the cross. Hail Mary."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In petition (first 27 days):"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hail, Queen of the Most Holy Rosary, my Mother Mary, hail! At thy feet I humbly kneel to offer thee a Crown of Roses, snow white buds to remind thee of thy joys, each bud recalling to thee a holy mystery, each 10 bound together with my petition for a particular grace. O Holy Queen, dispenser of God's graces, and Mother of all who invoke thee, thou canst not look upon my gift and fail to see its binding. As thou receivest my gift, so wilt thou receive my petition; from thy bounty thou wilt give me the favor I so earnestly and trustingly seek. I despair of nothing that I ask of thee. Show thyself my Mother!"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In thanksgiving (last 27 days):"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Hail, Queen of the Most Holy Rosary, my Mother Mary, hail! At thy feet I gratefully kneel to offer thee a Crown of Roses snow white buds to remind thee of thy joys each bud recalling to thee a holy mystery; each ten bound together with my petition for a particular grace. O Holy Queen, Dispenser of God's graces. and Mother of all who invoke thee! thou canst not look upon my gift and fail to see its binding. As thou receivest my gift, so wilt thou receive my thanksgiving; from thy bounty thou hast given me the favor I so earnestly and trustingly sought. I despaired not of what I asked of thee, and thou hast truly shown thyself my Mother."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Say: The Apostles Creed, Our Father, 3 Hail Marys, Glory Be."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Annunciation Our Father, 10 Hail Marys, Glory Be."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concluding Prayer: I bind these snow-white buds with a petition for the virtue of humility and humbly lay this bouquet at thy feet."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Visitation Our Father, 10 Hail Marys, Glory Be."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concluding Prayer: I bind these snow-white buds with a petition for the virtue of charity and humbly lay this bouquet at thy feet."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Nativity Our Father, 10 Hail Marys, Glory Be."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concluding Prayer: I bind these snow-white buds with a petition for the virtue of detachment from the world and humbly lay this bouquet at thy feet."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Presentation Our Father, 10 Hail Marys, Glory Be."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concluding Prayer: I bind these snow-white buds with a petition for the virtue of purity and humbly lay this bouquet at thy feet."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Finding the Child Jesus in the Temple  Our Father, 10 Hail Marys, Glory Be."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concluding Prayer: I bind these snow-white buds with a petition for the virtue of obedience to the will of God and humbly lay this bouquet at thy feet."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Say: The Hail Holy Queen."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In petition (first 27 days): Sweet Mother Mary, I offer thee this spiritual communion to bind my bouquets in a wreath to place upon thy brow. O my Mother! Look with favor upon my gift, and in thy love obtain for me (specify request). Hail Mary"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In thanksgiving (last 27 days):Sweet Mother Mary, I offer thee this Spiritual Communion to bind my bouquets in a wreath to place upon thy brow in thanksgiving for (specify request) which thou in thy love hast obtained for me. Hail, Mary,"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="THE SORROWFUL MYSTERIES OF THE HOLY ROSARY"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prayer before the recitation: Sign of the cross. Hail Mary."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In petition (first 27 days):"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hail, Queen of the Most Holy Rosary, my Mother Mary, hail! At thy feet I humbly kneel to offer thee a Crown of Roses, blood red roses to remind thee of the passion of thy divine Son, with Whom thou didst so fully partake of its bitterness, each rose recalling to thee a holy mystery, each 10 bound together with my petition for a particular grace. O Holy Queen, dispenser of God's graces, and Mother of all who invoke thee! Thou canst not look upon my gift and fail to see its binding. As thou receivest my gift, so wilt thou receive my petition; from thy bounty thou wilt give me the favor I so earnestly and trustingly seek. I despair of nothing that I ask of thee. Show thyself my Mother!"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In thanksgiving (last 27 days):"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hail, Queen of the Most Holy Rosary, my Mother Mary, hail! At thy feet I gratefully kneel to offer thee a Crown of Roses blood red roses to remind thee of the passion of thy divine Son, with Whom thou didst so fully partake of its bitterness each rose recalling to thee a holy mystery; each ten bound together with my petition for a particular grace. O Holy Queen, dispenser of God's graces, and Mother of all who invoke thee! Thou canst not look upon my gift and fail to see its binding. As thou receivest my gift, so wilt thou receive my thanksgiving; from thy bounty thou hast given me the favor I so earnestly and trustingly sought. I despaired not of what I asked of thee, and thou hast truly shown thyself my Mother."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Say: The Apostles Creed, Our Father, 3 Hail Marys, Glory Be."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Agony in the Garden Our Father, 10 Hail Marys, Glory Be."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concluding Prayer: I bind these blood red roses with a petition for the virtue of resignation to the will of God and humbly lay this bouquet at thy feet."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Scourging at the Pillar Our Father, 10 Hail Marys, Glory Be."
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:padding="3dp"
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concluding Prayer: I bind these blood red roses with a petition for the virtue of mortification and humbly lay this bouquet at thy feet."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Crowning with Thorns Our Father, 10 Hail Marys, Glory Be."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concluding Prayer: I bind these blood red roses with a petition for the virtue of humility and humbly lay this bouquet at thy feet."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Carrying of the Cross  Our Father, 10 Hail Marys, Glory Be."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concluding Prayer: I bind these blood red roses with a petition for the virtue of patience in adversity and humbly lay this bouquet at thy feet."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="he Crucifixion Our Father, 10 Hail Marys, Glory Be."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concluding Prayer: I bind these blood red roses with a petition for the virtue of love of our enemies and humbly lay this bouquet at thy feet."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Say: The Hail Holy Queen."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In petition (first 27 days): Sweet Mother Mary, I offer thee this spiritual communion to bind my bouquets in a wreath to place upon thy brow. O my Mother! Look with favor upon my gift,and in thy love obtain for me (specify request). Hail Mary"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In thanksgiving (last 27 days):Sweet Mother Mary, I offer thee this Spiritual Communion to bind my bouquets in a wreath to place upon thy brow in thanksgiving for (specify request) which thou in thy love hast obtained for me. Hail, Mary, etc."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="THE GLORIOUS MYSTERIES OF THE HOLY ROSARY"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prayer before the recitation: Sign of the cross. Hail Mary."
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In petition (first 27 days):"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hail, Queen of the Most Holy Rosary, my Mother Mary, hail! At thy feet I humbly kneel to offer thee a Crown of Roses, full-blown white roses, tinged with the red of the passion, to remind thee of thy glories, fruits of the sufferings of thy Son and thee, each rose recalling to thee a holy mystery, each 10 bound together with my petition for a particular grace. O Holy Queen, dispenser of God's graces, and Mother of all who invoke thee! Thou canst not look upon my gift and fail to see its binding. As thou receivest my gift, so wilt thou receive my petition; from thy bounty thou wilt give me the favor I so earnestly and trustingly seek. I despair of nothing that I ask of thee. Show thyself my Mother!"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="3dp"
+                />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="In thanksgiving (last 27 days):"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hail, Queen of the Most Holy Rosary, my Mother Mary, hail! At thy feet I gratefully kneel to offer thee a Crown of Roses blood red roses to remind thee of the passion of thy divine Son, with Whom thou didst so fully partake of its bitterness each rose recalling to thee a holy mystery; each ten bound together with my petition for a particular grace. O Holy Queen, dispenser of God's graces, and Mother of all who invoke thee! Thou canst not look upon my gift and fail to see its binding. As thou receivest my gift, so wilt thou receive my thanksgiving; from thy bounty thou hast given me the favor I so earnestly and trustingly sought. I despaired not of what I asked of thee, and thou hast truly shown thyself my Mother."
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Say: The Apostles Creed, Our Father, 3 Hail Marys, Glory Be."
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="For each of the following Mysteries, say: Our Father, 10 Hail Marys, Glory Be."
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The Resurrection Our Father, 10 Hail Marys, Glory Be."
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Concluding Prayer: I bind these full-blown roses with a petition for the virtue of faith and humbly lay this bouquet at thy feet."
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The Ascension Our Father, 10 Hail Marys, Glory Be."
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Concluding Prayer: I bind these full-blown roses with a petition for the virtue of faith and humbly lay this bouquet at thy feet."
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="3dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The Descent of the Holy Spirit Our Father, 10 Hail Marys, Glory Be."
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Concluding Prayer: I bind these full-blown roses with a petition for the virtue of faith and humbly lay this bouquet at thy feet."
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="3dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The Assumption of Mary  Our Father, 10 Hail Marys, Glory Be."
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Concluding Prayer: I bind these full-blown roses with a petition for the virtue of faith and humbly lay this bouquet at thy feet."
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="3dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The Coronation of the Blessed Mother  Our Father, 10 Hail Marys, Glory Be."
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Concluding Prayer: I bind these full-blown roses with a petition for the virtue of faith and humbly lay this bouquet at thy feet."
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="3dp"/>
+
+                <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Say: The Hail Holy Queen."
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:padding="3dp"
+            />
+                <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In petition (first 27 days): Sweet Mother Mary, I offer thee this spiritual communion to bind my bouquets in a wreath to place upon thy brow. O my Mother! Look with favor upon my gift, and in thy love obtain for me (specify request). Hail Mary"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:padding="3dp"
+            />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="In thanksgiving (last 27 days):Sweet Mother Mary, I offer thee this Spiritual Communion to bind my bouquets in a wreath to place upon thy brow in thanksgiving for (specify request) which thou in thy love hast obtained for me. Hail, Mary, etc."
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Promise of Our Lady of the Most Holy Rosary"
+                    android:textColor="#b22222"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Whoever desires to obtain favors from Me should make three novenas of the prayers of the Rosary, and three novenas in thanksgiving."
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- Fr Richard Heilman February 7, 2016"
+                    android:textColor="#b22222"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="On March 3, 1884 (in the same year Pope Leo XIII wrote the prayer to St. Michael, and exactly 33 years before the Fatima apparitions), a young girl named Fortuna Agrelli was graced with an apparition of the Blessed Virgin Mary and given this special devotion which she passed onto others."
+                    android:textColor="#b22222"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="At the time, young Fortuna was ill with 3 separate incurable diseases and her doctors had given up on her case saying it was hopeless. In desperation, the young girl and her family began a novena of Rosaries. Our Lady appeared to the girl, sitting upon a high throne, surrounded by luminous figures, holding the Divine Child on Her lap, and in Her hand a Rosary."
+                    android:textColor="#b22222"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The sick girl greeted the Blessed Virgin with the following words:Queen of the Holy Rosary, be gracious to me, restore me to health! I have already prayed to Thee in a novena, O Mary, but have not yet experienced Thy aid. I am so anxious to be cured!"
+                    android:textColor="#b22222"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="responded the Blessed Virgin,you have invoked Me by various titles and have always obtained favors from Me. Now, since you have called Me by that title so pleasing to Me,Queen of the Most Holy Rosary, I can no longer refuse the favor you petition; for this name is most precious and dear to Me. Make three novenas, and you shall obtain all."
+                    android:textColor="#b22222"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Once more, the Queen of the Holy Rosary appeared to the young girl and said,Whoever desires to obtain favors from Me should make three novenas of the prayers of the Rosary, and three novenas in thanksgiving."
+                    android:textColor="#b22222"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Obeying Our Lady's instructions, the young girl was healed and restored to perfect health."
+                    android:textColor="#b22222"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    />
+
+
+
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#212F3D"
+    android:padding="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prayerThirtyTwo">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addprayerthirtytwo"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarprayerthirtytwo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Prayer For Financial Blessings"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:textColor="#ff0000"
+                        android:text="Prayers For Financial Blessings, Enlargement and Abundance"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Father, I stand upon your word which states that My God will meet my needs according to the riches of His glory in Christ Jesus, I trust in your ability to effectively work through me. Father, I stand upon Psalm 34:10 that declares the lions may grow weak and hungry but those who seek the Lord shall lack no good thing. Lord as I seek your face I am believing that my family and I will lack no good thing."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Father, your word said that a good man leaves an inheritance for his children's children, but a sinner's wealth is stored up for the righteous. Father I am believing in you for creative ideas and opportunities to build wealth in order to leave a legacy for my children's children. let this be done according to your will.."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I am the seed of Abraham through Jesus Christ, and I receive the blessing of Abraham. Lord, in blessing, bless me, and in multiplying, multiply me as the stars of heaven and as the sand of the seashore. Lord as you promised in Deut. 33:23, Satisfied me with your favour and fill me with your blessings and reveal to me great opportunities for blessing along my path."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I beseech you, Holy Father, let your showers of blessings be upon my life and family in the name of Jesus our risen Lord. I turn every curse sent my way into a blessing in the name of Jesus. Let your blessing make me rich and all nations and peoples call me blessed of the Lord in Jesus mighty name."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lord, as I dwell in your presence always, bless me and let your face to shine upon me, that your ways maybe known upon the earth, and your saving health among all nations. Let my hand yield increase and let the ends of the earth fear you. May your favour stand strong and unshaken in me, in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Remember me O Lord, with the favour that you bring unto your children, and visit me with your salvation, Lord let your favour upon my life, cause me to triumph over my adversaries in the name of Jesus. Lord, let your blessings upon my life and family confuse our foes; put them to shame, while we enjoy your peace, abundance and comfort in Jesus name."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I decree that I shall remain a candidate for divine extraordinary blessings all year round in Jesus name. I submit to the leadership of God's Spirit and I receive breakthrough and succeed in all my undertakings in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I receive the favourable countenance of God, Heaven will agree with all my steps of faith. God's will shall prosper in my hands in the name of Jesus. I refuse to submit my courage to frustration. God will send me encouragement today; I will be energized to continue the race in the name of Jesus. I receive courage and wisdom to explore financial treasures that God has ordained for me in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Those that believe in me and have invested in my dream will not be disappointed in the name of Jesus. Those who gather to frustrate my vision will beg to be part of my celebration in the name of Jesus. The Lord will release a measure of prosperity into my life that will swallow all my history of poverty in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The grace that made Jabez more honourable than his brethren will distinguish me among my equals in the name of Jesus. Today marks the beginning of my bouncing back. My spiritual life shall be restored and my lost glory shall be fully recovered in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Inadequate supply will not compel me to abandon God. Excess supply will not deceive me to disconnect from God In the name of Jesus. I will not suffer scarcity of idea nor adequate capital to take my business to the next level in the name of Jesus. Evil intentions of my competitors will fail in the name of Jesus. I command a miraculous and total recovery of all debts owned my company in the name of Jesus. The Favour of God will envelope my company, office and shop or place of business in the name of Jesus"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I receive total liberty from the embarrassing yoke of debt in the name of Jesus. I break all assignments of the enemy against my finances in the name of Jesus. I break all curses of poverty, lack, debt, and failure in the name of Jesus. I seek first the kingdom of God and His righteousness, and all things are added unto me (Matthew 6:33)."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I rebuke and cast out all spirits of the cankerworm, palmerworm, caterpillar, and locust that would eat up my blessings in the name of Jesus (Joel 2:25). Lord, teach me to profit, and lead me in the way I should go. Your showers of blessing are upon my life in the name of Jesus. My barns are full and overflowing, my sheep bring forth thousands and ten thousands, my oxen are strong. Thank you for leading me to true prosperity in the name of Jesus"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I am your servant, Lord. Prosper me in the name of Jesus The God of heaven will prosper me in the name of Jesus. I live in the prosperity of the king in the name of Jesus. Through your favor I will be a prosperous person in this year and beyond in the name of Jesus. Give me your wisdom to use my meager wealth responsibly, help me understand when you knock me down to my knees. Heavenly Father I beseech you break off from my life any limitations and restrictions placed on my life by the evil spirits in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Thank you Lord for your word tha says in Exodus 34:24 that says; for I will cast out nations before you, and enlarge your borders; no one shall covert your land when you go up to appear before the Lord, by the power in your word, I cast out my enemies and enlarge my borders in the name of Jesus Christ the LORD."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Holy Father and everlasting God I beseech you, enlarge my steps so that I can receive your wealth and prosperity, according to your word in Esther 4:14, deliverance and enlargement for my life in the name of the risen Lord. O Lord Jesus Christ, the Saviour and Redeemer of the whole world I your servant beseech you, let your Kingdom and government increase in my life and may it please you also to increase my knowledge of you in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I declare that the covenant of God's blessing will be made manifest in my life in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I declare that the power, glory and the kingdom of the living God will come upon every department of my life, in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I declare that I shall be victorious in every way financially buoyant in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="O God arises! And pronounce uncommon favour upon my life, in the name of Jesus. O God arise! And single me out for uncommon success, in the name of Jesus. Every artillery of darkness, assigned against my favour, backfire! In the name of Jesus. I know that all of my needs will be met, today and always in the name of Jesus. I am provided for today, and all the tomorrows to come in the name of Jesus. I am open and ready to be guided to the means of providing for myself and my loved ones in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="All that I hope for and all that I need are now within my reach in the name of Jesus
+Abundance flows to me, and is around me, I am surround."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

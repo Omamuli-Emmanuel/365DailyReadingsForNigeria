@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#212F3D"
+    android:padding="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prayerTwentySix">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addprayertwentysix"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarprayertwentysix"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Personal Night-time Prayer"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TO BE TAKEN AT NIGHT BEFORE BEDTIME"
+                        android:padding="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="By the reason of the power in the name of Jesus and the blood that is a mark upon my forehead (make the sign of the cross upon your forehead), I will not be afraid of the arrow that flies by the day and the terror that comes at night (Ps. 91:5), in the name of Jesus. According to your word in Isa. 34:14, I blind the screech owl in the name of Jesus. I blind any attack upon my life this night in the name of Jesus Christ."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I take authority over every demon that is released against me and my family this night in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Standing on the word of God in Isa.17:12-14, let the evening tide trouble the enemies that would attack my life in the name of Jesus. According to your word in Psalm 104:20, I blind and rebuke every spirit that would creep against me this night in the name of Jesus. I blind and rebuke the pestilence that walk in darkness (Ps 91:6) and I will rest at night because the Lord gives me sleep."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="O Lord let your angels guard and protect me this night According to the Psalmist in Ps. 42:8, I will sing your song this night in the name of Jesus. Grant me the grace O my Lord to meditate on you and grow in your knowledge this night in the name of Jesus. By the power and authority in me as a child of God, I bind and rebuke every vampire spirit in the name of Jesus (Lev. 11:19)"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I bind and take authority over all nightmares and demonic dreams this night in the name of Jesus. I quench every fiery dart of jealousy, envy, anger, bitterness, and rage sent against my life in the name of Jesus. According to Is. 7:4, I blind every fire brand sent against my life by the enemy in the name of Jesus. I blind and rebuke all spirits of jealousy directed against my life in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="According to Is. 43:2, I decree that I will not be burnt by the fire of the enemy in the name of Jesus. I overcome every fiery trial sent against my life in the name of Jesus Christ. According to 2 Sam. 14:30, the enemy will not be able to burn up my harvest any more in the name of Jesus. Amen."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Standing on the authority in the word of God in, Prvb. 16:27, I quench all ungodly words spoken against my life in the name of Jesus. I quench all gossip directed against my life in the name of Jesus. (Prov. 26:20)"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Thank you Lord as you grant me peaceful night rest and to wake up tomorrow morning strong and healthy in Jesus name. Let your holy Angels encompass about me and my family and the Blood of Jesus as a covering. (Sprinkle Holy water around your bedroom)."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

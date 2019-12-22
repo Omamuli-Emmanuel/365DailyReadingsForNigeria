@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#212F3D"
+    android:padding="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prayerThirtyFive">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addprayerthirtyfive"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarprayerthirtyfive"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Prayer For Divine Protection"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Divine protection comes from God, the maker of heaven and earth. Those who look elsewhere for divine protection have gone astray. This prayer of divine protection is Bible based. It is a compilation of God's promises in the Scripture to serve as a protection for his children. are you in imminent danger? Or are you afraid of what the enemy might do to you? Do you feel unsafe because the enemies that surround you are so many? This prayer is for you."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Father you said I will not, in any degree leave you helpless or forsake, nor let you down; my Lord is my Helper; and I will not be seized with alarm. I will not fear or dread or be terrified, what man can do to me (Ps. 27:1, 118:6), I will fear no evil because God is with me (Hebrews 13:5-6) in the name of Jesus."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Almighty Father, I commit my life into your hands, please keep me in your secret place and be my refuge and my fortress where the hand of the enemy cannot touch me in the name of Jesus!"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Almighty Father, I pray that a thousand of my enemies may fall at my side, and ten thousand at my right hand; but it shall not come near me, no weapon formed against me shall prosper and every tongue that rises up against me in judgment shall be condemned in Jesus name!"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Unchangeable Lord, please don't let me be a prey in the mouth of the wicked, my life is in your hand, please be my defense. Protect me when I go out, protect me when I come in, protect me all the days of my life in the name of Jesus!"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I declare that every attack that the devil has planned against me is diverted now in the name of Jesus.
+Father, we thank you for the great authority and protection you have given your children through the person of Jesus Christ. That even as we go out into the world, your promise remains true to us, that nothing shall by any means hurt us."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp" />
+
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="We thank you Lord for the divine protection that you have given your children, who walk in faith. We choose to focus on your great love for us, and your protection of our families our loved ones, and ourselves, rather than give place to fear of the enemy. We declare, according to the scriptures, that the wicked one cannot touch us. That we are immune to his devices and tactics. That we can walk boldly through this life, with our eyes fixed on Jesus, the author and finisher of our faith, without fear of the enemy or his devices. Thank you Lord, that we are now seated with you, in Heavenly places, far above all the powers of darkness, and the evil workings of the enemy."
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Heavenly Father you have promised that when we dwell in the secret place of the most High and shelter under the shadow of your wings you will guard and guide us, protect us and keep us for you are our refuge and our fortress and you alone are the one in whom we place our trust. Thank you Lord that no matter where I go your hand leads me, and your right arm upholds me for you are before me and behind me, you are above me and below me you are at my right hand and also at my left. And you are with in me indwelling in my heart by the power of your Holy Spirit, who is my ever present Help in time of trouble. Father, I pray that you would protect me and my family from all the evils that are lurking nearby and from all the evils that encircle our lives. Put your hedge of protection and safety around us"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="we pray, and place a guard at our doors and protects us from all that pass by our gate. Father, keep our hearts from fear but rather fill us to overflowing with your perfect peace that surpasses all understanding. Thank you that you are indeed our refuge and strength.
+You are that ever present Help in time of trouble therefore in your strength we will not fear, though the earth be removed, and though the mountains be carried into the middle of the sea. For you are with us wherever we go. Thank you in Jesus name, Amen"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Thank you Father that you are my shepherd and I am under your watchful eye and protected by your gracious hand. Thank you for the care and protection that you show towards me with each passing day. Lord, at times I feel weary and worn, and sometimes I feel quite alone despite the many people that surround me. Look in grace and pity on me for I am your child the sheep of your pasture the little lamb that needs to be carried moment by moment on your shoulders. Lord, my eyes are looking to you to provide and to protect; to lead into green pastures and to feed beside the still waters. Thank you that no matter what difficulty arises in my life, my hope and my trust is in you. Thank you that I have nothing to fear, when you are with me. Thank you Father, in Jesus name I pray amen."
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="8dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

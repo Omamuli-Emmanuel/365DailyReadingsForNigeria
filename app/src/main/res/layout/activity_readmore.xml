@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HymnAudio.Readmore">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banid"
+        android:id="@+id/addrread"
+        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarread"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title=""
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/adventroll"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:id="@+id/adventll"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:layout_gravity="right"
+            >
+
+            <TextView
+                android:id="@+id/aboutsong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Audio Only works Online"
+                android:padding="8dp"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:background="#000"
+                android:layout_gravity="center_vertical"
+                />
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/script"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Script"
+                android:padding="8dp"
+                android:textSize="15sp"
+                android:textColor="#000"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Js 9"
+                android:textSize="19sp"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:id="@+id/adventreadmorejsno"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chb 9"
+                android:textSize="19sp"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:id="@+id/adventreadmorechbno"/>
+
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/adventreadmorestop"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_stop_black_24dp"
+                    android:layout_gravity="center_vertical"
+                    android:padding="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+                    android:textSize="19sp"
+                    android:text="Stop"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/adventreadmoreplay"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playy"
+                    android:layout_gravity="center_vertical"
+                    android:padding="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+                    android:textSize="19sp"
+                    android:text="Play"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hymn Title"
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    android:textColor="#000"
+                    android:id="@+id/adventreadmoretitle"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hymn SOng"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:id="@+id/adventreadmorehymn"/>
+
+                <ImageView
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:id="@+id/adventhymnscript"/>
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
